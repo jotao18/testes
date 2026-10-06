@@ -1,0 +1,815 @@
+﻿
+  dump.cs:201598:	public static FileStream Create(string path, int bufferSize) { }
+  dump.cs:201599:
+  dump.cs:201600:	// RVA: 0x1A598E0 Offset: 0x1A580E0 VA: 0x181A598E0
+  dump.cs:201601:	public static void Delete(string path) { }
+  dump.cs:201602:
+  dump.cs:201603:	// RVA: 0x1A59A40 Offset: 0x1A58240 VA: 0x181A59A40
+  dump.cs:201604:	public static bool Exists(string path) { }
+  dump.cs:201605:
+  dump.cs:201606:	// RVA: 0x1A59BA0 Offset: 0x1A583A0 VA: 0x181A59BA0
+  dump.cs:201607:	public static FileStream Open(string path, FileMode mode) { }
+  dump.cs:201608:
+  dump.cs:201609:	// RVA: 0x1A59BD0 Offset: 0x1A583D0 VA: 0x181A59BD0
+  dump.cs:201610:	public static FileStream Open(string path, FileMode mode, FileAccess access, FileShare share) { }
+  dump.cs:201611:
+  dump.cs:201612:	// RVA: 0x1A59C70 Offset: 0x1A58470 VA: 0x181A59C70
+  dump.cs:201613:	public static DateTime GetCreationTime(string path) { }
+  dump.cs:201614:
+  dump.cs:201615:	// RVA: 0x1A59DA0 Offset: 0x1A585A0 VA: 0x181A59DA0
+  dump.cs:201616:	public static DateTime GetLastWriteTime(string path) { }
+  dump.cs:201617:
+  dump.cs:201618:	// RVA: 0x1A59ED0 Offset: 0x1A586D0 VA: 0x181A59ED0
+  dump.cs:201619:	public static DateTime GetLastWriteTimeUtc(string path) { }
+  dump.cs:201620:
+  dump.cs:201621:	// RVA: 0x1A5A030 Offset: 0x1A58830 VA: 0x181A5A030
+  dump.cs:201622:	public static FileAttributes GetAttributes(string path) { }
+  dump.cs:201623:
+  dump.cs:201624:	// RVA: 0x1A5A110 Offset: 0x1A58910 VA: 0x181A5A110
+  dump.cs:201625:	public static FileStream OpenRead(string path) { }
+  dump.cs:201626:
+  dump.cs:201627:	// RVA: 0x1A5A1A0 Offset: 0x1A589A0 VA: 0x181A5A1A0
+> dump.cs:201628:	public static byte[] ReadAllBytes(string path) { }
+  dump.cs:201629:
+  dump.cs:201630:	// RVA: 0x1A5A410 Offset: 0x1A58C10 VA: 0x181A5A410
+> dump.cs:201631:	private static byte[] ReadAllBytesUnknownLength(FileStream fs) { }
+  dump.cs:201632:
+  dump.cs:201633:	// RVA: 0x1A5A9D0 Offset: 0x1A591D0 VA: 0x181A5A9D0
+  dump.cs:201634:	public static void Replace(string sourceFileName, string destinationFileName, string 
+destinationBackupFileName) { }
+  dump.cs:201635:
+  dump.cs:201636:	// RVA: 0x1A5A9F0 Offset: 0x1A591F0 VA: 0x181A5A9F0
+  dump.cs:201637:	public static void Replace(string sourceFileName, string destinationFileName, string 
+destinationBackupFileName, bool ignoreMetadataErrors) { }
+  dump.cs:201638:
+  dump.cs:201639:	// RVA: 0x1A5AD30 Offset: 0x1A59530 VA: 0x181A5AD30
+  dump.cs:201640:	public static void Move(string sourceFileName, string destFileName) { }
+  dump.cs:201641:}
+  dump.cs:201642:
+  dump.cs:201643:// Namespace: System.IO
+  dump.cs:201644:[Serializable]
+  dump.cs:201645:public sealed class FileInfo : FileSystemInfo // TypeDefIndex: 1739
+  dump.cs:201646:{
+  dump.cs:201647:	// Properties
+  dump.cs:201648:	public override string Name { get; }
+  dump.cs:201649:
+  dump.cs:201650:	// Methods
+  dump.cs:201651:
+  dump.cs:201652:	// RVA: 0x1A5AFF0 Offset: 0x1A597F0 VA: 0x181A5AFF0
+  dump.cs:201653:	private void .ctor() { }
+  dump.cs:201654:
+  dump.cs:201655:	// RVA: 0x1A5B000 Offset: 0x1A59800 VA: 0x181A5B000
+  dump.cs:201656:	public void .ctor(string fileName) { }
+  dump.cs:201657:
+  dump.cs:201658:	// RVA: 0x1A5B030 Offset: 0x1A59830 VA: 0x181A5B030
+  dump.cs:201659:	internal void .ctor(string originalPath, string fullPath, string fileName, bool isNormalized = 
+False) { }
+  dump.cs:201660:
+  dump.cs:201661:	// RVA: 0x1A5B270 Offset: 0x1A59A70 VA: 0x181A5B270
+  dump.cs:201662:	public StreamWriter CreateText() { }
+  dump.cs:201663:
+  dump.cs:201664:	// RVA: 0x1A5B2E0 Offset: 0x1A59AE0 VA: 0x181A5B2E0
+  dump.cs:201665:	public StreamWriter AppendText() { }
+  dump.cs:201666:
+  dump.cs:201667:	// RVA: 0x1A59090 Offset: 0x1A57890 VA: 0x181A59090
+  dump.cs:201668:	private void .ctor(SerializationInfo info, StreamingContext context) { }
+  dump.cs:201669:
+  dump.cs:201670:	// RVA: 0x6417E0 Offset: 0x63FFE0 VA: 0x1806417E0 Slot: 9
+  dump.cs:201671:	public override string get_Name() { }
+  dump.cs:201672:}
+  dump.cs:201673:
+  dump.cs:201674:// Namespace: System.IO
+  dump.cs:201675:[Serializable]
+  dump.cs:201676:public abstract class FileSystemInfo : MarshalByRefObject, ISerializable // TypeDefIndex: 1740
+  dump.cs:201677:{
+  dump.cs:201678:	// Fields
+  dump.cs:201679:	private Interop.Kernel32.WIN32_FILE_ATTRIBUTE_DATA _data; // 0x18
+  dump.cs:201680:	private int _dataInitialized; // 0x3C
+  dump.cs:201681:	protected string FullPath; // 0x40
+  dump.cs:201682:	protected string OriginalPath; // 0x48
+  dump.cs:201683:	internal string _name; // 0x50
+  dump.cs:201684:
+  dump.cs:201685:	// Properties
+  dump.cs:201686:	internal bool ExistsCore { get; }
+  dump.cs:201687:	internal string NormalizedPath { get; }
+  dump.cs:201688:	public virtual string FullName { get; }
+  dump.cs:201689:	public virtual string Name { get; }
+  dump.cs:201690:	public virtual bool Exists { get; }
+  dump.cs:201691:
+  dump.cs:390040:	public string HeroName; // 0x30
+  dump.cs:390041:	public SaveData Data; // 0x38
+  dump.cs:390042:
+  dump.cs:390043:	// Methods
+  dump.cs:390044:
+  dump.cs:390045:	// RVA: 0x79D620 Offset: 0x79BE20 VA: 0x18079D620
+  dump.cs:390046:	public void .ctor() { }
+  dump.cs:390047:}
+  dump.cs:390048:
+  dump.cs:390049:// Namespace: 
+  dump.cs:390050:[Serializable]
+  dump.cs:390051:public class SavedStash // TypeDefIndex: 6117
+  dump.cs:390052:{
+  dump.cs:390053:	// Fields
+  dump.cs:390054:	public List<SavedSlot> Slots; // 0x10
+  dump.cs:390055:	public List<SavedRegistryEntry> Registry; // 0x18
+  dump.cs:390056:	public long Gold; // 0x20
+  dump.cs:390057:	public List<SavedMaterial> Materials; // 0x28
+  dump.cs:390058:	public List<SavedLifeSkill> LifeSkills; // 0x30
+  dump.cs:390059:	public List<string> UnlockedSlaves; // 0x38
+  dump.cs:390060:	public SavedParagon Paragon; // 0x40
+  dump.cs:390061:
+  dump.cs:390062:	// Methods
+  dump.cs:390063:
+  dump.cs:390064:	// RVA: 0x79D770 Offset: 0x79BF70 VA: 0x18079D770
+  dump.cs:390065:	public void .ctor() { }
+  dump.cs:390066:}
+  dump.cs:390067:
+  dump.cs:390068:// Namespace: 
+  dump.cs:390069:[Serializable]
+> dump.cs:390070:public class SaveContainer // TypeDefIndex: 6118
+  dump.cs:390071:{
+  dump.cs:390072:	// Fields
+  dump.cs:390073:	public int Version; // 0x10
+  dump.cs:390074:	public List<SaveSlotRecord> LocalSlots; // 0x18
+  dump.cs:390075:	public List<SaveSlotRecord> OnlineSlots; // 0x20
+  dump.cs:390076:	public SavedStash LocalStash; // 0x28
+  dump.cs:390077:	public List<LocalDlcEntitlement> DlcEntitlements; // 0x30
+  dump.cs:390078:
+  dump.cs:390079:	// Methods
+  dump.cs:390080:
+  dump.cs:390081:	// RVA: 0x79DB00 Offset: 0x79C300 VA: 0x18079DB00
+  dump.cs:390082:	public void .ctor() { }
+  dump.cs:390083:}
+  dump.cs:390084:
+  dump.cs:390085:// Namespace: 
+  dump.cs:390086:[CompilerGenerated]
+  dump.cs:390087:[Serializable]
+> dump.cs:390088:private sealed class SaveSystem.<>c // TypeDefIndex: 6119
+  dump.cs:390089:{
+  dump.cs:390090:	// Fields
+> dump.cs:390091:	public static readonly SaveSystem.<>c <>9; // 0x0
+  dump.cs:390092:	public static Comparison<SavedMaterial> <>9__148_0; // 0x8
+  dump.cs:390093:	public static Comparison<SavedLifeSkill> <>9__148_1; // 0x10
+  dump.cs:390094:	public static Comparison<SavedRegistryEntry> <>9__148_2; // 0x18
+  dump.cs:390095:	public static Predicate<SaveSlotRecord> <>9__152_0; // 0x20
+  dump.cs:390096:	public static Action<LootDrop> <>9__163_3; // 0x28
+  dump.cs:390097:	public static Predicate<SavedRegistryEntry> <>9__220_0; // 0x30
+  dump.cs:390098:
+  dump.cs:390099:	// Methods
+  dump.cs:390100:
+  dump.cs:390101:	// RVA: 0x7BC620 Offset: 0x7BAE20 VA: 0x1807BC620
+  dump.cs:390102:	private static void .cctor() { }
+  dump.cs:390103:
+  dump.cs:390104:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390105:	public void .ctor() { }
+  dump.cs:390106:
+  dump.cs:390107:	// RVA: 0x5AFC30 Offset: 0x5AE430 VA: 0x1805AFC30
+  dump.cs:390108:	internal int ear(SavedMaterial a, SavedMaterial b) { }
+  dump.cs:390109:
+  dump.cs:390110:	// RVA: 0x5AFC30 Offset: 0x5AE430 VA: 0x1805AFC30
+  dump.cs:390111:	internal int eas(SavedLifeSkill a, SavedLifeSkill b) { }
+  dump.cs:390112:
+  dump.cs:390113:	// RVA: 0x5AFC30 Offset: 0x5AE430 VA: 0x1805AFC30
+  dump.cs:390114:	internal int eat(SavedRegistryEntry a, SavedRegistryEntry b) { }
+  dump.cs:390115:
+  dump.cs:390116:	// RVA: 0x7BC6C0 Offset: 0x7BAEC0 VA: 0x1807BC6C0
+  dump.cs:390117:	internal bool eau(SaveSlotRecord a) { }
+  dump.cs:390118:
+  dump.cs:390119:	// RVA: 0x7BC730 Offset: 0x7BAF30 VA: 0x1807BC730
+  dump.cs:390120:	internal void eav(LootDrop a) { }
+  dump.cs:390121:
+  dump.cs:390122:	// RVA: 0x7BC860 Offset: 0x7BB060 VA: 0x1807BC860
+  dump.cs:390123:	internal bool eaw(SavedRegistryEntry a) { }
+  dump.cs:390124:}
+  dump.cs:390125:
+  dump.cs:390126:// Namespace: 
+  dump.cs:390127:[CompilerGenerated]
+> dump.cs:390128:private sealed class SaveSystem.hl // TypeDefIndex: 6120
+  dump.cs:390129:{
+  dump.cs:390130:	// Fields
+  dump.cs:390131:	public SaveData nei; // 0x10
+  dump.cs:390132:
+  dump.cs:390133:	// Methods
+  dump.cs:390134:
+  dump.cs:390135:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390136:	public void .ctor() { }
+  dump.cs:390137:
+  dump.cs:390138:	// RVA: 0x7BC8D0 Offset: 0x7BB0D0 VA: 0x1807BC8D0
+  dump.cs:390139:	internal bool eax(HeroData a) { }
+  dump.cs:390140:}
+  dump.cs:390141:
+  dump.cs:390142:// Namespace: 
+  dump.cs:390143:[CompilerGenerated]
+> dump.cs:390144:private sealed class SaveSystem.hm // TypeDefIndex: 6121
+  dump.cs:390145:{
+  dump.cs:390146:	// Fields
+  dump.cs:390147:	public Task<bool> nej; // 0x10
+  dump.cs:390148:	public string nek; // 0x18
+  dump.cs:390149:
+  dump.cs:390150:	// Methods
+  dump.cs:390151:
+  dump.cs:390152:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390153:	public void .ctor() { }
+  dump.cs:390154:
+  dump.cs:390155:	// RVA: 0x7BCA10 Offset: 0x7BB210 VA: 0x1807BCA10
+  dump.cs:390156:	internal void eay() { }
+  dump.cs:390157:}
+  dump.cs:390158:
+  dump.cs:390159:// Namespace: 
+  dump.cs:390160:[CompilerGenerated]
+> dump.cs:390161:private sealed class SaveSystem.hn // TypeDefIndex: 6122
+  dump.cs:390162:{
+  dump.cs:390163:	// Fields
+  dump.cs:390164:	public string nel; // 0x10
+  dump.cs:390165:
+  dump.cs:390166:	// Methods
+  dump.cs:390167:
+  dump.cs:390168:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390169:	public void .ctor() { }
+  dump.cs:390170:
+  dump.cs:390171:	// RVA: 0x7BCAA0 Offset: 0x7BB2A0 VA: 0x1807BCAA0
+  dump.cs:390172:	internal bool eaz(SaveSlotRecord a) { }
+  dump.cs:390173:}
+  dump.cs:390174:
+  dump.cs:390175:// Namespace: 
+  dump.cs:390176:[CompilerGenerated]
+> dump.cs:390177:private sealed class SaveSystem.ho // TypeDefIndex: 6123
+  dump.cs:390178:{
+  dump.cs:390179:	// Fields
+  dump.cs:390180:	public HashSet<string> nem; // 0x10
+  dump.cs:390181:	public HashSet<string> nen; // 0x18
+  dump.cs:390182:
+  dump.cs:390183:	// Methods
+  dump.cs:390184:
+  dump.cs:390185:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390186:	public void .ctor() { }
+  dump.cs:390187:
+  dump.cs:390188:	// RVA: 0x7BCB00 Offset: 0x7BB300 VA: 0x1807BCB00
+  dump.cs:390189:	internal bool eba(string a) { }
+  dump.cs:390190:}
+  dump.cs:390191:
+  dump.cs:390192:// Namespace: 
+  dump.cs:390193:[CompilerGenerated]
+> dump.cs:390194:private sealed class SaveSystem.hp // TypeDefIndex: 6124
+  dump.cs:390195:{
+  dump.cs:390196:	// Fields
+  dump.cs:390197:	public HashSet<string> neo; // 0x10
+  dump.cs:390198:
+  dump.cs:390199:	// Methods
+  dump.cs:390200:
+  dump.cs:390201:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390202:	public void .ctor() { }
+  dump.cs:390203:
+  dump.cs:390204:	// RVA: 0x7BCC60 Offset: 0x7BB460 VA: 0x1807BCC60
+  dump.cs:390205:	internal bool ebb(string a) { }
+  dump.cs:390206:}
+  dump.cs:390207:
+  dump.cs:390208:// Namespace: 
+  dump.cs:390209:[CompilerGenerated]
+> dump.cs:390210:private sealed class SaveSystem.hq // TypeDefIndex: 6125
+  dump.cs:390211:{
+  dump.cs:390212:	// Fields
+  dump.cs:390213:	public HashSet<string> nep; // 0x10
+  dump.cs:390214:
+  dump.cs:390215:	// Methods
+  dump.cs:390216:
+  dump.cs:390217:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390218:	public void .ctor() { }
+  dump.cs:390219:
+  dump.cs:390220:	// RVA: 0x7BCD10 Offset: 0x7BB510 VA: 0x1807BCD10
+  dump.cs:390221:	internal bool ebc(string a) { }
+  dump.cs:390222:}
+  dump.cs:390223:
+  dump.cs:390224:// Namespace: 
+  dump.cs:390225:[CompilerGenerated]
+> dump.cs:390226:private sealed class SaveSystem.hr // TypeDefIndex: 6126
+  dump.cs:390227:{
+  dump.cs:390228:	// Fields
+  dump.cs:390229:	public string neq; // 0x10
+  dump.cs:390230:
+  dump.cs:390231:	// Methods
+  dump.cs:390232:
+  dump.cs:390233:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390234:	public void .ctor() { }
+  dump.cs:390235:
+  dump.cs:390236:	// RVA: 0x7BCDC0 Offset: 0x7BB5C0 VA: 0x1807BCDC0
+  dump.cs:390237:	internal bool ebd(string a) { }
+  dump.cs:390238:}
+  dump.cs:390239:
+  dump.cs:390240:// Namespace: 
+  dump.cs:390241:[CompilerGenerated]
+> dump.cs:390242:private sealed class SaveSystem.hs // TypeDefIndex: 6127
+  dump.cs:390243:{
+  dump.cs:390244:	// Fields
+  dump.cs:390245:	public HashSet<string> ner; // 0x10
+  dump.cs:390246:
+  dump.cs:390247:	// Methods
+  dump.cs:390248:
+  dump.cs:390249:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390250:	public void .ctor() { }
+  dump.cs:390251:
+  dump.cs:390252:	// RVA: 0x7BCE70 Offset: 0x7BB670 VA: 0x1807BCE70
+  dump.cs:390253:	internal void ebe(string a, ItemData b) { }
+  dump.cs:390254:}
+  dump.cs:390255:
+  dump.cs:390256:// Namespace: 
+  dump.cs:390257:[CompilerGenerated]
+> dump.cs:390258:private sealed class SaveSystem.ht // TypeDefIndex: 6128
+  dump.cs:390259:{
+  dump.cs:390260:	// Fields
+  dump.cs:390261:	public HashSet<string> nes; // 0x10
+  dump.cs:390262:	public Dictionary<string, Queue<LedgerEntry>> net; // 0x18
+  dump.cs:390263:	public int neu; // 0x20
+  dump.cs:390264:
+  dump.cs:390265:	// Methods
+  dump.cs:390266:
+  dump.cs:390267:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390268:	public void .ctor() { }
+  dump.cs:390269:
+  dump.cs:390270:	// RVA: 0x7BCF30 Offset: 0x7BB730 VA: 0x1807BCF30
+  dump.cs:390271:	internal void ebf(string a, ItemData b) { }
+  dump.cs:390272:
+  dump.cs:390273:	// RVA: 0x7BCFF0 Offset: 0x7BB7F0 VA: 0x1807BCFF0
+  dump.cs:390274:	internal void ebg(string a, ItemData b) { }
+  dump.cs:390275:}
+  dump.cs:390276:
+  dump.cs:390277:// Namespace: 
+  dump.cs:390278:[CompilerGenerated]
+> dump.cs:390279:private sealed class SaveSystem.hu // TypeDefIndex: 6129
+  dump.cs:390280:{
+  dump.cs:390281:	// Fields
+  dump.cs:390282:	public bool nev; // 0x10
+  dump.cs:390283:
+  dump.cs:390284:	// Methods
+  dump.cs:390285:
+  dump.cs:390286:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390287:	public void .ctor() { }
+  dump.cs:390288:
+  dump.cs:390289:	// RVA: 0x7BD220 Offset: 0x7BBA20 VA: 0x1807BD220
+  dump.cs:390290:	internal void ebh(string a, ItemData b) { }
+  dump.cs:390291:}
+  dump.cs:390292:
+  dump.cs:390293:// Namespace: 
+  dump.cs:390294:[CompilerGenerated]
+> dump.cs:390295:private sealed class SaveSystem.hv // TypeDefIndex: 6130
+  dump.cs:390296:{
+  dump.cs:390297:	// Fields
+  dump.cs:390298:	public bool new; // 0x10
+  dump.cs:390299:	public string nex; // 0x18
+  dump.cs:390300:	public bool ney; // 0x20
+  dump.cs:390301:
+  dump.cs:390302:	// Methods
+  dump.cs:390303:
+  dump.cs:390304:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390305:	public void .ctor() { }
+  dump.cs:390306:
+  dump.cs:390307:	// RVA: 0x7674E0 Offset: 0x765CE0 VA: 0x1807674E0
+  dump.cs:390308:	internal void ebi(bool a, string b) { }
+  dump.cs:390309:
+  dump.cs:390310:	// RVA: 0x42A4E0 Offset: 0x428CE0 VA: 0x18042A4E0
+  dump.cs:390311:	internal bool ebj() { }
+  dump.cs:390312:}
+  dump.cs:390313:
+  dump.cs:390314:// Namespace: 
+  dump.cs:390315:[CompilerGenerated]
+> dump.cs:390316:private sealed class SaveSystem.hw // TypeDefIndex: 6131
+  dump.cs:390317:{
+  dump.cs:390318:	// Fields
+  dump.cs:390319:	public SavedRegistryEntry nez; // 0x10
+  dump.cs:390320:
+  dump.cs:390321:	// Methods
+  dump.cs:390322:
+  dump.cs:390323:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390324:	public void .ctor() { }
+  dump.cs:390325:
+  dump.cs:390326:	// RVA: 0x7BD350 Offset: 0x7BBB50 VA: 0x1807BD350
+  dump.cs:390327:	internal bool ebk(SavedSlot a) { }
+  dump.cs:390328:}
+  dump.cs:390329:
+  dump.cs:390330:// Namespace: 
+  dump.cs:390331:[CompilerGenerated]
+> dump.cs:390332:private sealed class SaveSystem.hx // TypeDefIndex: 6132
+  dump.cs:390333:{
+  dump.cs:390334:	// Fields
+  dump.cs:390335:	public SaveData nfa; // 0x10
+  dump.cs:390336:
+  dump.cs:390337:	// Methods
+  dump.cs:390338:
+  dump.cs:390339:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390340:	public void .ctor() { }
+  dump.cs:390341:
+  dump.cs:390342:	// RVA: 0x7BD3C0 Offset: 0x7BBBC0 VA: 0x1807BD3C0
+  dump.cs:390343:	internal bool ebl(HeroData a) { }
+  dump.cs:390344:}
+  dump.cs:390345:
+  dump.cs:390346:// Namespace: 
+  dump.cs:390347:[CompilerGenerated]
+> dump.cs:390348:private sealed class SaveSystem.hy : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 
+6133
+  dump.cs:390349:{
+  dump.cs:390350:	// Fields
+  dump.cs:390351:	private int nfb; // 0x10
+  dump.cs:390352:	private object nfc; // 0x18
+> dump.cs:390353:	public SaveSystem nfd; // 0x20
+> dump.cs:390354:	private SaveSystem.hv nfe; // 0x28
+  dump.cs:390355:	private float nff; // 0x30
+  dump.cs:390356:	private CanvasGroup nfg; // 0x38
+  dump.cs:390357:	private bool nfh; // 0x40
+  dump.cs:390358:
+  dump.cs:390359:	// Properties
+  dump.cs:390360:	private object rfh { get; }
+  dump.cs:390361:	private object rfi { get; }
+  dump.cs:390362:
+  dump.cs:390363:	// Methods
+  dump.cs:390364:
+  dump.cs:390365:	[DebuggerHidden]
+  dump.cs:390366:	// RVA: 0x442320 Offset: 0x440B20 VA: 0x180442320
+  dump.cs:390367:	public void .ctor(int a) { }
+  dump.cs:390368:
+  dump.cs:390369:	[DebuggerHidden]
+  dump.cs:390370:	// RVA: 0x7BD500 Offset: 0x7BBD00 VA: 0x1807BD500 Slot: 5
+  dump.cs:390371:	private void ebm() { }
+  dump.cs:390372:
+  dump.cs:390373:	// RVA: 0x7BD540 Offset: 0x7BBD40 VA: 0x1807BD540 Slot: 6
+  dump.cs:390374:	private bool MoveNext() { }
+  dump.cs:390375:
+  dump.cs:390376:	// RVA: 0x7BE010 Offset: 0x7BC810 VA: 0x1807BE010
+  dump.cs:390377:	private void ebn() { }
+  dump.cs:390378:
+  dump.cs:390379:	[DebuggerHidden]
+  dump.cs:390380:	// RVA: 0x44A2D0 Offset: 0x448AD0 VA: 0x18044A2D0 Slot: 4
+  dump.cs:390381:	private object ebo() { }
+  dump.cs:390382:
+  dump.cs:390383:	[DebuggerHidden]
+  dump.cs:390384:	// RVA: 0x7BE0B0 Offset: 0x7BC8B0 VA: 0x1807BE0B0 Slot: 8
+  dump.cs:390385:	private void ebp() { }
+  dump.cs:390386:
+  dump.cs:390387:	[DebuggerHidden]
+  dump.cs:390388:	// RVA: 0x44A2D0 Offset: 0x448AD0 VA: 0x18044A2D0 Slot: 7
+  dump.cs:390389:	private object ebq() { }
+  dump.cs:390390:}
+  dump.cs:390391:
+  dump.cs:390392:// Namespace: 
+> dump.cs:390393:public class SaveSystem : MonoBehaviour // TypeDefIndex: 6134
+  dump.cs:390394:{
+  dump.cs:390395:	// Fields
+  dump.cs:390396:	[CompilerGenerated]
+> dump.cs:390397:	private static SaveSystem <nfi>k__BackingField; // 0x0
+  dump.cs:390398:	[CompilerGenerated]
+  dump.cs:390399:	private CharacterMode <nfj>k__BackingField; // 0x20
+  dump.cs:390400:	public const int MaxSlotsPerMode = 4;
+  dump.cs:390401:	[CompilerGenerated]
+  dump.cs:390402:	private int <nfk>k__BackingField; // 0x24
+  dump.cs:390403:	private const string nfl = "LAST_PLAYED_MODE";
+  dump.cs:390404:	private const string nfm = "LAST_PLAYED_SLOT";
+> dump.cs:390405:	private SaveContainer nfn; // 0x28
+  dump.cs:390406:	private string nfo; // 0x30
+  dump.cs:390407:	private string nfp; // 0x38
+  dump.cs:390408:	private LedgerEntry[] nfq; // 0x40
+  dump.cs:390409:	private List<string> nfr; // 0x48
+  dump.cs:390410:	private GambleSlotStock[] nfs; // 0x50
+  dump.cs:390411:	public float TownAutosaveInterval; // 0x58
+  dump.cs:390412:	private const float nft = 5;
+  dump.cs:390413:	private bool nfu; // 0x5C
+  dump.cs:390414:	private float nfv; // 0x60
+  dump.cs:390415:	private bool nfw; // 0x64
+  dump.cs:390416:	private int nfx; // 0x68
+  dump.cs:390417:	private const int nfy = 3;
+  dump.cs:390418:	private const string nfz = "Data/Items";
+  dump.cs:390419:	private const string nga = "Data/Maps";
+  dump.cs:390420:	private const string ngb = "Data/Maps";
+  dump.cs:390421:	private const string ngc = "Data/Talents";
+  dump.cs:390422:	private const string ngd = "Data/Statuses";
+  dump.cs:390423:	private const string nge = "Data/LifeSkills";
+> dump.cs:390424:	private const string ngf = "save.json";
+  dump.cs:390425:	private const string ngg = "data";
+> dump.cs:390426:	private const string ngh = "data_backup";
+  dump.cs:390427:	private Dictionary<string, ItemData> ngi; // 0x70
+  dump.cs:390428:	private Dictionary<string, TalentData> ngj; // 0x78
+  dump.cs:390429:	private Dictionary<string, StatusEffectData> ngk; // 0x80
+  dump.cs:390430:	private Dictionary<string, LifeSkillNodeData> ngl; // 0x88
+  dump.cs:390431:	private static HashSet<string> ngm; // 0x8
+  dump.cs:390432:	private static HashSet<string> ngn; // 0x10
+  dump.cs:390433:	private static HashSet<string> ngo; // 0x18
+  dump.cs:390434:	private static Dictionary<string, float> ngp; // 0x20
+  dump.cs:390435:	private const string ngq = "::difficulty::";
+  dump.cs:390436:	[CompilerGenerated]
+  dump.cs:390437:	private MapData <ngr>k__BackingField; // 0x90
+  dump.cs:390438:	[CompilerGenerated]
+  dump.cs:390439:	private bool <ngs>k__BackingField; // 0x98
+  dump.cs:390440:	[CompilerGenerated]
+  dump.cs:390441:	private TownData <ngt>k__BackingField; // 0xA0
+  dump.cs:390442:	[CompilerGenerated]
+  dump.cs:390443:	private long <ngu>k__BackingField; // 0xA8
+  dump.cs:390444:	private static bool ngv; // 0x28
+  dump.cs:390445:	private const string ngw = "SaveMigratedToInstallDir_v1";
+> dump.cs:390446:	private const string ngx = "save_backup_";
+> dump.cs:390447:	private const string ngy = "save_backup_*.json";
+  dump.cs:390448:	private const string ngz = "LAST_TIME_BACKUP";
+  dump.cs:390449:	private const long nha = 3600;
+  dump.cs:390450:	private const int nhb = 5;
+  dump.cs:390451:	private Task<bool> nhc; // 0xB0
+  dump.cs:390452:	private long nhd; // 0xB8
+  dump.cs:390453:	private static readonly string[] nhe; // 0x30
+  dump.cs:390454:	public const uint DlcAppId = 5216710;
+  dump.cs:390455:	[CompilerGenerated]
+  dump.cs:390456:	private bool <nhf>k__BackingField; // 0xC0
+  dump.cs:390457:	private Nullable<bool> nhg; // 0xC1
+  dump.cs:390458:	private Callback<LicensesUpdated_t> nhh; // 0xC8
+  dump.cs:390459:	private List<string> nhi; // 0xD0
+  dump.cs:390460:	private LocalDlcEntitlement nhj; // 0xD8
+  dump.cs:390461:	private string nhk; // 0xE0
+  dump.cs:390462:
+  dump.cs:390463:	// Properties
+> dump.cs:390464:	public static SaveSystem nfi { get; set; }
+  dump.cs:390465:	public CharacterMode nfj { get; set; }
+  dump.cs:390466:	public int nfk { get; set; }
+  dump.cs:390467:	public MapData ngr { get; set; }
+  dump.cs:390468:	public bool ngs { get; set; }
+  dump.cs:390469:	public TownData ngt { get; set; }
+  dump.cs:390470:	public long ngu { get; set; }
+  dump.cs:390471:	private static string rfj { get; }
+  dump.cs:390472:	private static string rfk { get; }
+  dump.cs:390473:	private static string rfl { get; }
+  dump.cs:390474:	private static string rfm { get; }
+  dump.cs:390475:	private static string rfn { get; }
+  dump.cs:390476:	private string rfo { get; }
+  dump.cs:390477:	private SaveSlotRecord rfp { get; }
+  dump.cs:390478:	public bool nhf { get; set; }
+  dump.cs:390479:	public bool rfq { get; }
+  dump.cs:390480:	public bool rfr { get; }
+  dump.cs:390481:	public bool rfs { get; }
+  dump.cs:390482:	private bool rft { get; }
+  dump.cs:390483:	private string rfu { get; }
+  dump.cs:390484:
+  dump.cs:390485:	// Methods
+  dump.cs:390486:
+  dump.cs:390487:	[CompilerGenerated]
+  dump.cs:390488:	// RVA: 0x79DBC0 Offset: 0x79C3C0 VA: 0x18079DBC0
+> dump.cs:390489:	public static SaveSystem ebr() { }
+  dump.cs:390490:
+  dump.cs:390491:	[CompilerGenerated]
+  dump.cs:390492:	// RVA: 0x79DC20 Offset: 0x79C420 VA: 0x18079DC20
+> dump.cs:390493:	private static void ebs(SaveSystem a) { }
+  dump.cs:390494:
+  dump.cs:390495:	[CompilerGenerated]
+  dump.cs:390496:	// RVA: 0x517550 Offset: 0x515D50 VA: 0x180517550
+  dump.cs:390497:	public CharacterMode ebt() { }
+  dump.cs:390498:
+  dump.cs:390499:	[CompilerGenerated]
+  dump.cs:390500:	// RVA: 0x517560 Offset: 0x515D60 VA: 0x180517560
+  dump.cs:390501:	public void ebu(CharacterMode a) { }
+  dump.cs:390502:
+  dump.cs:390503:	[CompilerGenerated]
+  dump.cs:390504:	// RVA: 0x5F6890 Offset: 0x5F5090 VA: 0x1805F6890
+  dump.cs:390505:	public int ebv() { }
+  dump.cs:390506:
+  dump.cs:390507:	[CompilerGenerated]
+  dump.cs:390508:	// RVA: 0x5F68A0 Offset: 0x5F50A0 VA: 0x1805F68A0
+  dump.cs:390509:	public void ebw(int a) { }
+  dump.cs:390510:
+  dump.cs:390511:	// RVA: 0x79DCD0 Offset: 0x79C4D0 VA: 0x18079DCD0
+  dump.cs:390512:	public void ebx(CharacterMode a, int b) { }
+  dump.cs:390513:
+  dump.cs:390514:	// RVA: 0x79DD80 Offset: 0x79C580 VA: 0x18079DD80
+  dump.cs:390515:	public bool eby(out CharacterMode a, out int b) { }
+  dump.cs:390516:
+  dump.cs:390517:	// RVA: 0x79DE30 Offset: 0x79C630 VA: 0x18079DE30
+  dump.cs:390518:	public static string ebz(string a, WorldDifficulty b) { }
+  dump.cs:390519:
+  dump.cs:390520:	// RVA: 0x79DF20 Offset: 0x79C720 VA: 0x18079DF20
+  dump.cs:390521:	public static bool eca(string a, WorldDifficulty b) { }
+  dump.cs:390522:
+  dump.cs:390523:	// RVA: 0x79DFF0 Offset: 0x79C7F0 VA: 0x18079DFF0
+  dump.cs:390524:	public static bool ecb(string a) { }
+  dump.cs:390525:
+  dump.cs:390526:	// RVA: 0x79E090 Offset: 0x79C890 VA: 0x18079E090
+  dump.cs:390527:	public static void ecc(string a) { }
+  dump.cs:390528:
+  dump.cs:390529:	// RVA: 0x79E140 Offset: 0x79C940 VA: 0x18079E140
+  dump.cs:390530:	public static void ecd(string a, WorldDifficulty b) { }
+  dump.cs:390531:
+  dump.cs:390532:	// RVA: 0x79E210 Offset: 0x79CA10 VA: 0x18079E210
+  dump.cs:390533:	public static bool ece(string a) { }
+  dump.cs:390534:
+  dump.cs:390535:	// RVA: 0x79E510 Offset: 0x79CD10 VA: 0x18079E510
+  dump.cs:390536:	public static bool ecf(string a, WorldDifficulty b) { }
+  dump.cs:390537:
+  dump.cs:390538:	// RVA: 0x79E5E0 Offset: 0x79CDE0 VA: 0x18079E5E0
+  dump.cs:390539:	public static bool ecg(MapData a, WorldDifficulty b) { }
+  dump.cs:390540:
+  dump.cs:390541:	// RVA: 0x79E7C0 Offset: 0x79CFC0 VA: 0x18079E7C0
+  dump.cs:390542:	public static void ech(string a) { }
+  dump.cs:390543:
+  dump.cs:390544:	// RVA: 0x79E8D0 Offset: 0x79D0D0 VA: 0x18079E8D0
+  dump.cs:390545:	public static void eci(string a, WorldDifficulty b) { }
+  dump.cs:390546:
+  dump.cs:390547:	// RVA: 0x79E950 Offset: 0x79D150 VA: 0x18079E950
+  dump.cs:390548:	public static bool ecj(string a) { }
+  dump.cs:390549:
+  dump.cs:390550:	// RVA: 0x79E9F0 Offset: 0x79D1F0 VA: 0x18079E9F0
+  dump.cs:390551:	public static void eck(string a) { }
+  dump.cs:390552:
+  dump.cs:390553:	// RVA: 0x79EAC0 Offset: 0x79D2C0 VA: 0x18079EAC0
+  dump.cs:390655:	public HeroData edn(List<HeroData> a) { }
+  dump.cs:390656:
+  dump.cs:390657:	// RVA: 0x7A2FC0 Offset: 0x7A17C0 VA: 0x1807A2FC0
+  dump.cs:390658:	public HeroData edo(string a, List<HeroData> b) { }
+  dump.cs:390659:
+  dump.cs:390660:	// RVA: 0x7A3140 Offset: 0x7A1940 VA: 0x1807A3140
+  dump.cs:390661:	private static string edp() { }
+  dump.cs:390662:
+  dump.cs:390663:	// RVA: 0x7A31D0 Offset: 0x7A19D0 VA: 0x1807A31D0
+  dump.cs:390664:	private static string edq() { }
+  dump.cs:390665:
+  dump.cs:390666:	// RVA: 0x7A3270 Offset: 0x7A1A70 VA: 0x1807A3270
+  dump.cs:390667:	private static string edr() { }
+  dump.cs:390668:
+  dump.cs:390669:	// RVA: 0x7A3310 Offset: 0x7A1B10 VA: 0x1807A3310
+  dump.cs:390670:	private static string eds() { }
+  dump.cs:390671:
+  dump.cs:390672:	// RVA: 0x7A33B0 Offset: 0x7A1BB0 VA: 0x1807A33B0
+  dump.cs:390673:	private static string edt() { }
+  dump.cs:390674:
+  dump.cs:390675:	// RVA: 0x7A3450 Offset: 0x7A1C50 VA: 0x1807A3450
+  dump.cs:390676:	private static void edu() { }
+  dump.cs:390677:
+  dump.cs:390678:	// RVA: 0x7A3760 Offset: 0x7A1F60 VA: 0x1807A3760
+  dump.cs:390679:	private string edv() { }
+  dump.cs:390680:
+  dump.cs:390681:	// RVA: 0x7A37B0 Offset: 0x7A1FB0 VA: 0x1807A37B0
+  dump.cs:390682:	private void edw() { }
+  dump.cs:390683:
+  dump.cs:390684:	// RVA: 0x7A3970 Offset: 0x7A2170 VA: 0x1807A3970
+> dump.cs:390685:	private static void edx(SaveContainer a) { }
+  dump.cs:390686:
+  dump.cs:390687:	// RVA: 0x7A3AC0 Offset: 0x7A22C0 VA: 0x1807A3AC0
+  dump.cs:390688:	private List<SaveSlotRecord> edy(CharacterMode a) { }
+  dump.cs:390689:
+  dump.cs:390690:	// RVA: 0x7A3B10 Offset: 0x7A2310 VA: 0x1807A3B10
+> dump.cs:390691:	private SaveContainer edz() { }
+  dump.cs:390692:
+  dump.cs:390693:	// RVA: 0x7A3EE0 Offset: 0x7A26E0 VA: 0x1807A3EE0
+> dump.cs:390694:	private SaveContainer eea(string a) { }
+  dump.cs:390695:
+  dump.cs:390696:	// RVA: 0x7A3F70 Offset: 0x7A2770 VA: 0x1807A3F70
+> dump.cs:390697:	private SaveContainer eeb() { }
+  dump.cs:390698:
+  dump.cs:390699:	// RVA: 0x7A4350 Offset: 0x7A2B50 VA: 0x1807A4350
+  dump.cs:390700:	private void eec() { }
+  dump.cs:390701:
+  dump.cs:390702:	// RVA: 0x7A4360 Offset: 0x7A2B60 VA: 0x1807A4360
+> dump.cs:390703:	private void eed(SaveContainer a) { }
+  dump.cs:390704:
+  dump.cs:390705:	// RVA: 0x7A4480 Offset: 0x7A2C80 VA: 0x1807A4480
+  dump.cs:390706:	private SaveSlotRecord eee() { }
+  dump.cs:390707:
+  dump.cs:390708:	// RVA: 0x7A4520 Offset: 0x7A2D20 VA: 0x1807A4520
+  dump.cs:390709:	private SaveData eef() { }
+  dump.cs:390710:
+  dump.cs:390711:	// RVA: 0x7A4540 Offset: 0x7A2D40 VA: 0x1807A4540
+  dump.cs:390712:	private void eeg(string a) { }
+  dump.cs:390713:
+  dump.cs:390714:	// RVA: 0x7A4AC0 Offset: 0x7A32C0 VA: 0x1807A4AC0
+  dump.cs:390715:	private void eeh() { }
+  dump.cs:390716:
+  dump.cs:390717:	// RVA: 0x7A4C10 Offset: 0x7A3410 VA: 0x1807A4C10
+  dump.cs:390718:	private static void eei(string a) { }
+  dump.cs:390719:
+  dump.cs:390720:	// RVA: 0x7A4DB0 Offset: 0x7A35B0 VA: 0x1807A4DB0
+  dump.cs:390721:	public int eej(CharacterMode a) { }
+  dump.cs:390722:
+  dump.cs:390723:	// RVA: 0x7A4E20 Offset: 0x7A3620 VA: 0x1807A4E20
+  dump.cs:390724:	public SaveSlotRecord eek(CharacterMode a, int b) { }
+  dump.cs:390725:
+  dump.cs:390726:	// RVA: 0x7A4EF0 Offset: 0x7A36F0 VA: 0x1807A4EF0
+  dump.cs:390727:	public int eel(CharacterMode a, string b, string c) { }
+  dump.cs:390728:
+  dump.cs:390729:	// RVA: 0x7A5310 Offset: 0x7A3B10 VA: 0x1807A5310
+  dump.cs:390730:	public void eem(int a) { }
+  dump.cs:390731:
+  dump.cs:390732:	// RVA: 0x7A5390 Offset: 0x7A3B90 VA: 0x1807A5390
+  dump.cs:390733:	public void een(string a) { }
+  dump.cs:390734:
+  dump.cs:390735:	// RVA: 0x7A54E0 Offset: 0x7A3CE0 VA: 0x1807A54E0
+  dump.cs:390736:	public void eeo(List<SaveSlotRecord> a) { }
+  dump.cs:390737:
+  dump.cs:390738:	// RVA: 0x7A55E0 Offset: 0x7A3DE0 VA: 0x1807A55E0
+  dump.cs:390739:	public SaveData eep() { }
+  dump.cs:390740:
+  dump.cs:390741:	// RVA: 0x7A5780 Offset: 0x7A3F80 VA: 0x1807A5780
+  dump.cs:390742:	public long eeq() { }
+  dump.cs:390743:
+  dump.cs:390744:	// RVA: 0x7A59F0 Offset: 0x7A41F0 VA: 0x1807A59F0
+  dump.cs:390745:	public void eer(bool a = False) { }
+  dump.cs:390746:
+  dump.cs:390747:	// RVA: 0x7A5AA0 Offset: 0x7A42A0 VA: 0x1807A5AA0
+  dump.cs:390748:	private void ees(bool a) { }
+  dump.cs:390749:
+  dump.cs:390750:	// RVA: 0x7A5B00 Offset: 0x7A4300 VA: 0x1807A5B00
+  dump.cs:390751:	public ValueTuple<string, string> eet() { }
+  dump.cs:390752:
+  dump.cs:390753:	// RVA: 0x7A5C60 Offset: 0x7A4460 VA: 0x1807A5C60
+  dump.cs:390754:	private ValueTuple<SaveData, SavedStash> eeu() { }
+  dump.cs:390755:
+  dump.cs:390756:	// RVA: 0x7A9E10 Offset: 0x7A8610 VA: 0x1807A9E10
+  dump.cs:390757:	private void eev(SaveData a, SavedStash b, bool c) { }
+  dump.cs:390758:
+  dump.cs:390759:	// RVA: 0x7AA860 Offset: 0x7A9060 VA: 0x1807AA860
+  dump.cs:390760:	public void eew(string a, string b, LedgerEntry[] c, GambleSlotStock[] d) { }
+  dump.cs:390761:
+  dump.cs:390762:	// RVA: 0x7AAC40 Offset: 0x7A9440 VA: 0x1807AAC40
+  dump.cs:390763:	public void eex() { }
+  dump.cs:390896:	public bool egm() { }
+  dump.cs:390897:
+  dump.cs:390898:	[CompilerGenerated]
+  dump.cs:390899:	// RVA: 0x7B93D0 Offset: 0x7B7BD0 VA: 0x1807B93D0
+  dump.cs:390900:	private void egn(bool a) { }
+  dump.cs:390901:
+  dump.cs:390902:	// RVA: 0x7B93E0 Offset: 0x7B7BE0 VA: 0x1807B93E0
+  dump.cs:390903:	public bool ego() { }
+  dump.cs:390904:
+  dump.cs:390905:	// RVA: 0x7B9460 Offset: 0x7B7C60 VA: 0x1807B9460
+  dump.cs:390906:	public bool egp() { }
+  dump.cs:390907:
+  dump.cs:390908:	// RVA: 0x7B9520 Offset: 0x7B7D20 VA: 0x1807B9520
+  dump.cs:390909:	public bool egq() { }
+  dump.cs:390910:
+  dump.cs:390911:	// RVA: 0x7B9600 Offset: 0x7B7E00 VA: 0x1807B9600
+  dump.cs:390912:	private bool egr() { }
+  dump.cs:390913:
+  dump.cs:390914:	// RVA: 0x7B9860 Offset: 0x7B8060 VA: 0x1807B9860
+  dump.cs:390915:	private string egs() { }
+  dump.cs:390916:
+  dump.cs:390917:	// RVA: 0x7B9910 Offset: 0x7B8110 VA: 0x1807B9910
+  dump.cs:390918:	private void egt() { }
+  dump.cs:390919:
+  dump.cs:390920:	// RVA: 0x7B9AA0 Offset: 0x7B82A0 VA: 0x1807B9AA0
+  dump.cs:390921:	private void egu() { }
+  dump.cs:390922:
+  dump.cs:390923:	// RVA: 0x7B9E80 Offset: 0x7B8680 VA: 0x1807B9E80
+  dump.cs:390924:	public void egv() { }
+  dump.cs:390925:
+> dump.cs:390926:	[IteratorStateMachine(typeof(SaveSystem.hy))]
+  dump.cs:390927:	// RVA: 0x7BA760 Offset: 0x7B8F60 VA: 0x1807BA760
+  dump.cs:390928:	private IEnumerator egw() { }
+  dump.cs:390929:
+  dump.cs:390930:	// RVA: 0x7BA800 Offset: 0x7B9000 VA: 0x1807BA800
+  dump.cs:390931:	public void egx(string a) { }
+  dump.cs:390932:
+  dump.cs:390933:	// RVA: 0x7BAEA0 Offset: 0x7B96A0 VA: 0x1807BAEA0
+  dump.cs:390934:	private static void egy() { }
+  dump.cs:390935:
+  dump.cs:390936:	// RVA: 0x7BB3F0 Offset: 0x7B9BF0 VA: 0x1807BB3F0
+  dump.cs:390937:	private static void egz(string a) { }
+  dump.cs:390938:
+  dump.cs:390939:	// RVA: 0x7BB4D0 Offset: 0x7B9CD0 VA: 0x1807BB4D0
+  dump.cs:390940:	public void .ctor() { }
+  dump.cs:390941:
+  dump.cs:390942:	// RVA: 0x7BB5D0 Offset: 0x7B9DD0 VA: 0x1807BB5D0
+  dump.cs:390943:	private static void .cctor() { }
+  dump.cs:390944:
+  dump.cs:390945:	[CompilerGenerated]
+  dump.cs:390946:	// RVA: 0x7BBAF0 Offset: 0x7BA2F0 VA: 0x1807BBAF0
+  dump.cs:390947:	private void eha(bool a, string b) { }
+  dump.cs:390948:
+  dump.cs:390949:	[CompilerGenerated]
+  dump.cs:390950:	// RVA: 0x7BBE90 Offset: 0x7BA690 VA: 0x1807BBE90
+  dump.cs:390951:	private void ehb(bool a, SteamSyncResponse b, string c) { }
+  dump.cs:390952:
+  dump.cs:390953:	[CompilerGenerated]
+  dump.cs:390954:	// RVA: 0x7BC030 Offset: 0x7BA830 VA: 0x1807BC030
+  dump.cs:390955:	internal static bool ehc(ItemData a, string b) { }
+  dump.cs:390956:
+  dump.cs:390957:	[CompilerGenerated]
+  dump.cs:390958:	// RVA: 0x7BC120 Offset: 0x7BA920 VA: 0x1807BC120
+  dump.cs:390959:	internal static int ehd(InventorySlot[] a) { }
+  dump.cs:390960:
+  dump.cs:390961:	[CompilerGenerated]
+  dump.cs:390962:	// RVA: 0x7BC210 Offset: 0x7BAA10 VA: 0x1807BC210
+  dump.cs:390963:	internal static int ehe(IEnumerable<LootDrop> a, Action<LootDrop> b) { }
+  dump.cs:390964:
+  dump.cs:390965:	[CompilerGenerated]
+  dump.cs:390966:	// RVA: 0x7BC4F0 Offset: 0x7BACF0 VA: 0x1807BC4F0
+  dump.cs:390967:	private void ehf(LicensesUpdated_t a) { }
+  dump.cs:390968:
+  dump.cs:390969:	[CompilerGenerated]
+  dump.cs:390970:	// RVA: 0x7BC500 Offset: 0x7BAD00 VA: 0x1807BC500
+  dump.cs:390971:	private bool ehg(LocalDlcEntitlement a) { }
+  dump.cs:390972:}
+  dump.cs:390973:
+  dump.cs:390974:// Namespace: 
+  dump.cs:390975:[Serializable]
+  dump.cs:390976:public class LocalDlcEntitlement // TypeDefIndex: 6135
+  dump.cs:390977:{
+  dump.cs:390978:	// Fields
+  dump.cs:390979:	public string SteamId; // 0x10
+  dump.cs:390980:	public uint AppId; // 0x18
+  dump.cs:390981:	public bool SharedRewardsClaimed; // 0x1C
+  dump.cs:390982:
+  dump.cs:390983:	// Methods
+  dump.cs:390984:
+  dump.cs:390985:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:390986:	public void .ctor() { }
+
+
