@@ -1,0 +1,306 @@
+﻿
+> dump.cs:371832:public struct StatModifier // TypeDefIndex: 5590
+  dump.cs:371833:{
+  dump.cs:371834:	// Fields
+  dump.cs:371835:	public StatType Stat; // 0x0
+  dump.cs:371836:	public ModifierType Type; // 0x4
+  dump.cs:371837:	public ObscuredFloat Value; // 0x8
+  dump.cs:371838:}
+  dump.cs:371839:
+  dump.cs:371840:// Namespace: 
+  dump.cs:371841:[Serializable]
+  dump.cs:371842:public struct LeveledFloat // TypeDefIndex: 5591
+  dump.cs:371843:{
+  dump.cs:371844:	// Fields
+  dump.cs:371845:	public ObscuredFloat Base; // 0x0
+  dump.cs:371846:	public ObscuredFloat PerLevel; // 0x14
+  dump.cs:371847:
+  dump.cs:371848:	// Methods
+  dump.cs:371849:
+  dump.cs:371850:	// RVA: 0x4A9D00 Offset: 0x4A8500 VA: 0x1804A9D00
+  dump.cs:371851:	public void .ctor(float baseValue, float perLevel) { }
+  dump.cs:371852:
+  dump.cs:371853:	// RVA: 0x4A9D80 Offset: 0x4A8580 VA: 0x1804A9D80
+  dump.cs:371854:	public float wo(int a) { }
+  dump.cs:371855:
+  dump.cs:371856:	// RVA: 0x4A9E00 Offset: 0x4A8600 VA: 0x1804A9E00
+  dump.cs:371857:	public static LeveledFloat wp(float a) { }
+  dump.cs:371858:}
+  dump.cs:371859:
+  dump.cs:371860:// Namespace: 
+  dump.cs:371861:[Serializable]
+  dump.cs:371862:public struct LeveledStatModifier // TypeDefIndex: 5592
+  dump.cs:371863:{
+  dump.cs:371864:	// Fields
+  dump.cs:371865:	public StatType Stat; // 0x0
+  dump.cs:371866:	public ModifierType Type; // 0x4
+  dump.cs:371867:	public LeveledFloat Value; // 0x8
+  dump.cs:371868:	public TokenSpec Token; // 0x30
+  dump.cs:371869:
+  dump.cs:371870:	// Methods
+  dump.cs:371871:
+  dump.cs:371872:	// RVA: 0x4A9E80 Offset: 0x4A8680 VA: 0x1804A9E80
+  dump.cs:371873:	public StatModifier wq(int a) { }
+  dump.cs:371874:}
+  dump.cs:371875:
+  dump.cs:371876:// Namespace: 
+  dump.cs:371877:public enum VFXAnchor // TypeDefIndex: 5593
+  dump.cs:371878:{
+  dump.cs:371879:	// Fields
+  dump.cs:371880:	public int value__; // 0x0
+  dump.cs:371881:	public const VFXAnchor Transform = 0;
+  dump.cs:371882:	public const VFXAnchor BodyMarker = 1;
+  dump.cs:371883:	public const VFXAnchor TopMarker = 2;
+  dump.cs:371884:}
+  dump.cs:371885:
+  dump.cs:371886:// Namespace: 
+  dump.cs:371887:[CompilerGenerated]
+  dump.cs:371888:[Serializable]
+  dump.cs:371889:private sealed class StatusEffectData.<>c // TypeDefIndex: 5594
+  dump.cs:371890:{
+  dump.cs:371891:	// Fields
+  dump.cs:371892:	public static readonly StatusEffectData.<>c <>9; // 0x0
+  dump.cs:371893:	public static Predicate<StatusEffectBehavior> <>9__16_0; // 0x8
+  dump.cs:371894:	public static Predicate<StatusEffectBehavior> <>9__18_0; // 0x10
+  dump.cs:371895:	public static Predicate<StatusEffectBehavior> <>9__20_0; // 0x18
+  dump.cs:371896:	public static Predicate<StatusEffectBehavior> <>9__22_0; // 0x20
+  dump.cs:371897:	public static Predicate<StatusEffectBehavior> <>9__24_0; // 0x28
+  dump.cs:371898:	public static Predicate<StatusEffectBehavior> <>9__26_0; // 0x30
+  dump.cs:371899:	public static Predicate<StatusEffectBehavior> <>9__28_0; // 0x38
+  dump.cs:371900:	public static Predicate<StatusEffectBehavior> <>9__30_0; // 0x40
+  dump.cs:371901:
+  dump.cs:371902:	// Methods
+  dump.cs:371903:
+  dump.cs:371904:	// RVA: 0x4AB650 Offset: 0x4A9E50 VA: 0x1804AB650
+  dump.cs:371905:	private static void .cctor() { }
+  dump.cs:371906:
+  dump.cs:371907:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:371908:	public void .ctor() { }
+  dump.cs:371909:
+  dump.cs:371910:	// RVA: 0x4AB6F0 Offset: 0x4A9EF0 VA: 0x1804AB6F0
+  dump.cs:371911:	internal bool wr(StatusEffectBehavior a) { }
+  dump.cs:371912:
+  dump.cs:371913:	// RVA: 0x4AB770 Offset: 0x4A9F70 VA: 0x1804AB770
+  dump.cs:371914:	internal bool ws(StatusEffectBehavior a) { }
+  dump.cs:371915:
+  dump.cs:371916:	// RVA: 0x4AB7F0 Offset: 0x4A9FF0 VA: 0x1804AB7F0
+  dump.cs:371917:	internal bool wt(StatusEffectBehavior a) { }
+  dump.cs:371918:
+  dump.cs:371919:	// RVA: 0x4AB870 Offset: 0x4AA070 VA: 0x1804AB870
+  dump.cs:371920:	internal bool wu(StatusEffectBehavior a) { }
+  dump.cs:371921:
+  dump.cs:371922:	// RVA: 0x4AB8F0 Offset: 0x4AA0F0 VA: 0x1804AB8F0
+  dump.cs:371923:	internal bool wv(StatusEffectBehavior a) { }
+  dump.cs:371924:
+  dump.cs:371925:	// RVA: 0x4AB960 Offset: 0x4AA160 VA: 0x1804AB960
+  dump.cs:371926:	internal bool ww(StatusEffectBehavior a) { }
+  dump.cs:371927:
+  dump.cs:371928:	// RVA: 0x4AB9D0 Offset: 0x4AA1D0 VA: 0x1804AB9D0
+  dump.cs:371929:	internal bool wx(StatusEffectBehavior a) { }
+  dump.cs:371930:
+  dump.cs:371931:	// RVA: 0x4ABA40 Offset: 0x4AA240 VA: 0x1804ABA40
+  dump.cs:371932:	internal bool wy(StatusEffectBehavior a) { }
+> dump.cs:372351:public class StatModifierBehavior : StatusEffectBehavior // TypeDefIndex: 5610
+  dump.cs:372352:{
+  dump.cs:372353:	// Fields
+  dump.cs:372354:	public LeveledStatModifier[] Modifiers; // 0x10
+  dump.cs:372355:
+  dump.cs:372356:	// Methods
+  dump.cs:372357:
+  dump.cs:372358:	// RVA: 0x4B0910 Offset: 0x4AF110 VA: 0x1804B0910 Slot: 12
+  dump.cs:372359:	public override void xo(h a) { }
+  dump.cs:372360:
+  dump.cs:372361:	// RVA: 0x4B09F0 Offset: 0x4AF1F0 VA: 0x1804B09F0 Slot: 11
+  dump.cs:372362:	public override void yj(bk a, List<StatModifier> b) { }
+  dump.cs:372363:
+  dump.cs:372364:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:372365:	public void .ctor() { }
+  dump.cs:372366:}
+  dump.cs:372367:
+  dump.cs:372368:// Namespace: 
+  dump.cs:372369:[Serializable]
+  dump.cs:372370:public abstract class StatusEffectBehavior // TypeDefIndex: 5611
+  dump.cs:372371:{
+  dump.cs:372372:	// Properties
+  dump.cs:372373:	public virtual bool qtd { get; }
+  dump.cs:372374:
+  dump.cs:372375:	// Methods
+  dump.cs:372376:
+  dump.cs:372377:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 4
+  dump.cs:372378:	public virtual void xs(bk a, Character b) { }
+  dump.cs:372379:
+  dump.cs:372380:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 5
+  dump.cs:372381:	public virtual void xv(bk a, Character b) { }
+  dump.cs:372382:
+  dump.cs:372383:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 6
+  dump.cs:372384:	public virtual void yg(bk a, Character b) { }
+  dump.cs:372385:
+  dump.cs:372386:	// RVA: 0x422020 Offset: 0x420820 VA: 0x180422020 Slot: 7
+  dump.cs:372387:	public virtual bool xt() { }
+  dump.cs:372388:
+  dump.cs:372389:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 8
+  dump.cs:372390:	public virtual void xu(bk a, c b, Character c) { }
+  dump.cs:372391:
+  dump.cs:372392:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 9
+  dump.cs:372393:	public virtual void yk(bk a, Character b) { }
+  dump.cs:372394:
+  dump.cs:372395:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 10
+  dump.cs:372396:	public virtual void yb(bk a, Character b) { }
+  dump.cs:372397:
+  dump.cs:372398:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 11
+  dump.cs:372399:	public virtual void yj(bk a, List<StatModifier> b) { }
+  dump.cs:372400:
+  dump.cs:372401:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20 Slot: 12
+  dump.cs:372402:	public virtual void xo(h a) { }
+  dump.cs:372403:
+  dump.cs:372404:	// RVA: 0x4B0C20 Offset: 0x4AF420 VA: 0x1804B0C20 Slot: 13
+  dump.cs:372405:	public virtual long xq(bk a, long b, DamageType c) { }
+  dump.cs:372406:
+  dump.cs:372407:	// RVA: 0x4B0C20 Offset: 0x4AF420 VA: 0x1804B0C20 Slot: 14
+  dump.cs:372408:	public virtual long xr(bk a, long b, DamageType c) { }
+  dump.cs:372409:
+  dump.cs:372410:	// RVA: 0x4B0C30 Offset: 0x4AF430 VA: 0x1804B0C30 Slot: 15
+  dump.cs:372411:	public virtual float xm(bk a, StatusEffectData b, float c) { }
+  dump.cs:372412:
+  dump.cs:372413:	// RVA: 0x4B0C40 Offset: 0x4AF440 VA: 0x1804B0C40 Slot: 16
+  dump.cs:372414:	public virtual float yi(bk a, Character b) { }
+  dump.cs:372415:
+  dump.cs:372416:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:372417:	protected void .ctor() { }
+  dump.cs:372418:}
+  dump.cs:372419:
+  dump.cs:372420:// Namespace: 
+  dump.cs:372421:[Serializable]
+  dump.cs:372422:public class StunnedBehavior : StatusEffectBehavior // TypeDefIndex: 5612
+  dump.cs:372423:{
+  dump.cs:372424:	// Methods
+  dump.cs:372425:
+  dump.cs:372426:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:372427:	public void .ctor() { }
+  dump.cs:372428:}
+  dump.cs:372429:
+  dump.cs:372430:// Namespace: 
+  dump.cs:372431:[Serializable]
+  dump.cs:372432:public class VulnerableBehavior : StatusEffectBehavior // TypeDefIndex: 5613
+  dump.cs:372433:{
+  dump.cs:372434:	// Methods
+  dump.cs:372435:
+  dump.cs:372436:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:372437:	public void .ctor() { }
+  dump.cs:372438:}
+  dump.cs:372439:
+  dump.cs:372440:// Namespace: 
+  dump.cs:372441:public class AbilityAnimationRelay : MonoBehaviour // TypeDefIndex: 5614
+  dump.cs:372442:{
+  dump.cs:372443:	// Fields
+  dump.cs:372444:	private Action llo; // 0x20
+  dump.cs:372445:
+  dump.cs:372446:	// Methods
+  dump.cs:372447:
+  dump.cs:372448:	// RVA: 0x42AAF0 Offset: 0x4292F0 VA: 0x18042AAF0
+  dump.cs:372449:	public void yl(Action a) { }
+  dump.cs:372450:
+  dump.cs:372451:	// RVA: 0x4B0C50 Offset: 0x4AF450 VA: 0x1804B0C50
+> dump.cs:387615:public class GeneratedItemData // TypeDefIndex: 6042
+  dump.cs:387616:{
+  dump.cs:387617:	// Fields
+  dump.cs:387618:	public int ItemLevel; // 0x10
+  dump.cs:387619:	public ItemRarity Rarity; // 0x14
+  dump.cs:387620:	public StatModifier[] Modifiers; // 0x18
+  dump.cs:387621:	public int UpgradeLevel; // 0x20
+  dump.cs:387622:	public int UpgradeAttempts; // 0x24
+  dump.cs:387623:	public int RuneLevel; // 0x28
+  dump.cs:387624:	public long RuneXP; // 0x30
+  dump.cs:387625:	public int SocketCount; // 0x38
+  dump.cs:387626:	public string[] SocketedGemBaseIds; // 0x40
+  dump.cs:387627:	public bool IsAncient; // 0x48
+  dump.cs:387628:	public bool Locked; // 0x49
+  dump.cs:387629:	public string InstanceId; // 0x50
+  dump.cs:387630:	public ChestContent[] ChestContents; // 0x58
+  dump.cs:387631:	public int ChestGold; // 0x60
+  dump.cs:387632:	public int SourceMapMinEnemyLevel; // 0x64
+  dump.cs:387633:	public bool SourceIsMythic; // 0x68
+  dump.cs:387634:	public bool IsBlackMist; // 0x69
+  dump.cs:387635:	public BlackMistRevealState BlackMistReveal; // 0x70
+  dump.cs:387636:	public bool Bound; // 0x78
+  dump.cs:387637:
+  dump.cs:387638:	// Properties
+  dump.cs:387639:	public bool reb { get; }
+  dump.cs:387640:	public bool rec { get; }
+  dump.cs:387641:
+  dump.cs:387642:	// Methods
+  dump.cs:387643:
+  dump.cs:387644:	// RVA: 0x772C50 Offset: 0x771450 VA: 0x180772C50
+  dump.cs:387645:	public bool dnz() { }
+  dump.cs:387646:
+  dump.cs:387647:	// RVA: 0x772C70 Offset: 0x771470 VA: 0x180772C70
+  dump.cs:387648:	public bool doa() { }
+  dump.cs:387649:
+  dump.cs:387650:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:387651:	public void .ctor() { }
+  dump.cs:387652:}
+  dump.cs:387653:
+  dump.cs:387654:// Namespace: 
+  dump.cs:387655:[Serializable]
+  dump.cs:387656:public class BlackMistRevealState // TypeDefIndex: 6043
+  dump.cs:387657:{
+  dump.cs:387658:	// Fields
+  dump.cs:387659:	public BlackMistRevealSlot[] Slots; // 0x10
+  dump.cs:387660:	public bool Finalized; // 0x18
+  dump.cs:387661:
+  dump.cs:387662:	// Properties
+  dump.cs:387663:	public bool red { get; }
+  dump.cs:387664:
+  dump.cs:387665:	// Methods
+  dump.cs:387666:
+  dump.cs:387667:	// RVA: 0x772C90 Offset: 0x771490 VA: 0x180772C90
+  dump.cs:387668:	public bool dob() { }
+  dump.cs:387669:
+  dump.cs:387670:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:387671:	public void .ctor() { }
+  dump.cs:387672:}
+  dump.cs:387673:
+  dump.cs:387674:// Namespace: 
+  dump.cs:387675:[Serializable]
+  dump.cs:387676:public class BlackMistRevealSlot // TypeDefIndex: 6044
+  dump.cs:387677:{
+  dump.cs:387678:	// Fields
+  dump.cs:387679:	public StatModifier ChoiceA; // 0x10
+  dump.cs:387680:	public StatModifier ChoiceB; // 0x2C
+  dump.cs:387681:	public bool Revealed; // 0x48
+  dump.cs:387682:	public int Selected; // 0x4C
+  dump.cs:387683:
+  dump.cs:387684:	// Properties
+  dump.cs:387685:	public Nullable<StatModifier> ree { get; }
+  dump.cs:387686:
+  dump.cs:387687:	// Methods
+  dump.cs:387688:
+  dump.cs:387689:	// RVA: 0x772CF0 Offset: 0x7714F0 VA: 0x180772CF0
+  dump.cs:387690:	public Nullable<StatModifier> doc() { }
+  dump.cs:387691:
+  dump.cs:387692:	// RVA: 0x772DE0 Offset: 0x7715E0 VA: 0x180772DE0
+  dump.cs:387693:	public void .ctor() { }
+  dump.cs:387694:}
+  dump.cs:387695:
+  dump.cs:387696:// Namespace: 
+  dump.cs:387697:[Serializable]
+  dump.cs:387698:public class ChestContent // TypeDefIndex: 6045
+  dump.cs:387699:{
+  dump.cs:387700:	// Fields
+  dump.cs:387701:	public string BaseItemId; // 0x10
+  dump.cs:387702:	public int ItemLevel; // 0x18
+  dump.cs:387703:	public ItemRarity Rarity; // 0x1C
+  dump.cs:387704:	public StatModifier[] Modifiers; // 0x20
+  dump.cs:387705:	public bool IsAncient; // 0x28
+  dump.cs:387706:	public bool IsBlackMist; // 0x29
+  dump.cs:387707:	public string InstanceId; // 0x30
+  dump.cs:387708:	public int SocketCount; // 0x38
+  dump.cs:387709:
+  dump.cs:387710:	// Methods
+  dump.cs:387711:
+  dump.cs:387712:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:387713:	public void .ctor() { }
+  dump.cs:387714:}
+  dump.cs:387715:
+
+
