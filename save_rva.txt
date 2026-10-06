@@ -1,0 +1,192 @@
+﻿
+  dump.cs:390673:	private static string edt() { }
+  dump.cs:390674:
+  dump.cs:390675:	// RVA: 0x7A3450 Offset: 0x7A1C50 VA: 0x1807A3450
+  dump.cs:390676:	private static void edu() { }
+  dump.cs:390677:
+  dump.cs:390678:	// RVA: 0x7A3760 Offset: 0x7A1F60 VA: 0x1807A3760
+  dump.cs:390679:	private string edv() { }
+  dump.cs:390680:
+  dump.cs:390681:	// RVA: 0x7A37B0 Offset: 0x7A1FB0 VA: 0x1807A37B0
+  dump.cs:390682:	private void edw() { }
+  dump.cs:390683:
+  dump.cs:390684:	// RVA: 0x7A3970 Offset: 0x7A2170 VA: 0x1807A3970
+  dump.cs:390685:	private static void edx(SaveContainer a) { }
+  dump.cs:390686:
+  dump.cs:390687:	// RVA: 0x7A3AC0 Offset: 0x7A22C0 VA: 0x1807A3AC0
+  dump.cs:390688:	private List<SaveSlotRecord> edy(CharacterMode a) { }
+  dump.cs:390689:
+  dump.cs:390690:	// RVA: 0x7A3B10 Offset: 0x7A2310 VA: 0x1807A3B10
+  dump.cs:390691:	private SaveContainer edz() { }
+  dump.cs:390692:
+> dump.cs:390693:	// RVA: 0x7A3EE0 Offset: 0x7A26E0 VA: 0x1807A3EE0
+  dump.cs:390694:	private SaveContainer eea(string a) { }
+  dump.cs:390695:
+  dump.cs:390696:	// RVA: 0x7A3F70 Offset: 0x7A2770 VA: 0x1807A3F70
+  dump.cs:390697:	private SaveContainer eeb() { }
+  dump.cs:390698:
+  dump.cs:390699:	// RVA: 0x7A4350 Offset: 0x7A2B50 VA: 0x1807A4350
+  dump.cs:390700:	private void eec() { }
+  dump.cs:390701:
+> dump.cs:390702:	// RVA: 0x7A4360 Offset: 0x7A2B60 VA: 0x1807A4360
+  dump.cs:390703:	private void eed(SaveContainer a) { }
+  dump.cs:390704:
+  dump.cs:390705:	// RVA: 0x7A4480 Offset: 0x7A2C80 VA: 0x1807A4480
+  dump.cs:390706:	private SaveSlotRecord eee() { }
+  dump.cs:390707:
+> dump.cs:390708:	// RVA: 0x7A4520 Offset: 0x7A2D20 VA: 0x1807A4520
+  dump.cs:390709:	private SaveData eef() { }
+  dump.cs:390710:
+> dump.cs:390711:	// RVA: 0x7A4540 Offset: 0x7A2D40 VA: 0x1807A4540
+  dump.cs:390712:	private void eeg(string a) { }
+  dump.cs:390713:
+  dump.cs:390714:	// RVA: 0x7A4AC0 Offset: 0x7A32C0 VA: 0x1807A4AC0
+  dump.cs:390715:	private void eeh() { }
+  dump.cs:390716:
+> dump.cs:390717:	// RVA: 0x7A4C10 Offset: 0x7A3410 VA: 0x1807A4C10
+  dump.cs:390718:	private static void eei(string a) { }
+  dump.cs:390719:
+  dump.cs:390720:	// RVA: 0x7A4DB0 Offset: 0x7A35B0 VA: 0x1807A4DB0
+  dump.cs:390721:	public int eej(CharacterMode a) { }
+  dump.cs:390722:
+  dump.cs:390723:	// RVA: 0x7A4E20 Offset: 0x7A3620 VA: 0x1807A4E20
+  dump.cs:390724:	public SaveSlotRecord eek(CharacterMode a, int b) { }
+  dump.cs:390725:
+  dump.cs:390726:	// RVA: 0x7A4EF0 Offset: 0x7A36F0 VA: 0x1807A4EF0
+  dump.cs:390727:	public int eel(CharacterMode a, string b, string c) { }
+  dump.cs:390728:
+  dump.cs:390729:	// RVA: 0x7A5310 Offset: 0x7A3B10 VA: 0x1807A5310
+  dump.cs:390730:	public void eem(int a) { }
+  dump.cs:390731:
+  dump.cs:390732:	// RVA: 0x7A5390 Offset: 0x7A3B90 VA: 0x1807A5390
+  dump.cs:390733:	public void een(string a) { }
+  dump.cs:390734:
+  dump.cs:390735:	// RVA: 0x7A54E0 Offset: 0x7A3CE0 VA: 0x1807A54E0
+  dump.cs:390736:	public void eeo(List<SaveSlotRecord> a) { }
+  dump.cs:390737:
+  dump.cs:390738:	// RVA: 0x7A55E0 Offset: 0x7A3DE0 VA: 0x1807A55E0
+  dump.cs:390739:	public SaveData eep() { }
+  dump.cs:390740:
+  dump.cs:390741:	// RVA: 0x7A5780 Offset: 0x7A3F80 VA: 0x1807A5780
+  dump.cs:390742:	public long eeq() { }
+  dump.cs:390743:
+  dump.cs:390744:	// RVA: 0x7A59F0 Offset: 0x7A41F0 VA: 0x1807A59F0
+  dump.cs:390745:	public void eer(bool a = False) { }
+  dump.cs:390746:
+  dump.cs:390747:	// RVA: 0x7A5AA0 Offset: 0x7A42A0 VA: 0x1807A5AA0
+  dump.cs:390748:	private void ees(bool a) { }
+  dump.cs:390749:
+  dump.cs:390750:	// RVA: 0x7A5B00 Offset: 0x7A4300 VA: 0x1807A5B00
+  dump.cs:390751:	public ValueTuple<string, string> eet() { }
+  dump.cs:390752:
+  dump.cs:390753:	// RVA: 0x7A5C60 Offset: 0x7A4460 VA: 0x1807A5C60
+  dump.cs:390754:	private ValueTuple<SaveData, SavedStash> eeu() { }
+  dump.cs:390755:
+> dump.cs:390756:	// RVA: 0x7A9E10 Offset: 0x7A8610 VA: 0x1807A9E10
+  dump.cs:390757:	private void eev(SaveData a, SavedStash b, bool c) { }
+  dump.cs:390758:
+> dump.cs:390759:	// RVA: 0x7AA860 Offset: 0x7A9060 VA: 0x1807AA860
+  dump.cs:390760:	public void eew(string a, string b, LedgerEntry[] c, GambleSlotStock[] d) { }
+  dump.cs:390761:
+  dump.cs:390762:	// RVA: 0x7AAC40 Offset: 0x7A9440 VA: 0x1807AAC40
+  dump.cs:390763:	public void eex() { }
+  dump.cs:390764:
+  dump.cs:390765:	// RVA: 0x7ADE30 Offset: 0x7AC630 VA: 0x1807ADE30
+  dump.cs:390766:	private void eey() { }
+  dump.cs:390767:
+  dump.cs:390768:	// RVA: 0x7AF2D0 Offset: 0x7ADAD0 VA: 0x1807AF2D0
+  dump.cs:390769:	private void eez(InventorySlot[] a, SavedSlot b) { }
+  dump.cs:390770:
+  dump.cs:390771:	// RVA: 0x7AF690 Offset: 0x7ADE90 VA: 0x1807AF690
+  dump.cs:390772:	private static bool efa(ItemData a, string b) { }
+  dump.cs:390773:
+  dump.cs:390774:	// RVA: 0x7AF900 Offset: 0x7AE100 VA: 0x1807AF900
+  dump.cs:390775:	private static void efb(ItemData a, string b, string c) { }
+  dump.cs:390776:
+  dump.cs:390777:	// RVA: 0x7AFA90 Offset: 0x7AE290 VA: 0x1807AFA90
+  dump.cs:390778:	private void efc(LedgerEntry[] a) { }
+  dump.cs:390779:
+  dump.cs:390916:
+  dump.cs:390917:	// RVA: 0x7B9910 Offset: 0x7B8110 VA: 0x1807B9910
+  dump.cs:390918:	private void egt() { }
+  dump.cs:390919:
+  dump.cs:390920:	// RVA: 0x7B9AA0 Offset: 0x7B82A0 VA: 0x1807B9AA0
+  dump.cs:390921:	private void egu() { }
+  dump.cs:390922:
+  dump.cs:390923:	// RVA: 0x7B9E80 Offset: 0x7B8680 VA: 0x1807B9E80
+  dump.cs:390924:	public void egv() { }
+  dump.cs:390925:
+  dump.cs:390926:	[IteratorStateMachine(typeof(SaveSystem.hy))]
+  dump.cs:390927:	// RVA: 0x7BA760 Offset: 0x7B8F60 VA: 0x1807BA760
+  dump.cs:390928:	private IEnumerator egw() { }
+  dump.cs:390929:
+  dump.cs:390930:	// RVA: 0x7BA800 Offset: 0x7B9000 VA: 0x1807BA800
+  dump.cs:390931:	public void egx(string a) { }
+  dump.cs:390932:
+  dump.cs:390933:	// RVA: 0x7BAEA0 Offset: 0x7B96A0 VA: 0x1807BAEA0
+  dump.cs:390934:	private static void egy() { }
+  dump.cs:390935:
+> dump.cs:390936:	// RVA: 0x7BB3F0 Offset: 0x7B9BF0 VA: 0x1807BB3F0
+  dump.cs:390937:	private static void egz(string a) { }
+  dump.cs:390938:
+  dump.cs:390939:	// RVA: 0x7BB4D0 Offset: 0x7B9CD0 VA: 0x1807BB4D0
+  dump.cs:390940:	public void .ctor() { }
+  dump.cs:390941:
+  dump.cs:390942:	// RVA: 0x7BB5D0 Offset: 0x7B9DD0 VA: 0x1807BB5D0
+  dump.cs:390943:	private static void .cctor() { }
+  dump.cs:390944:
+  dump.cs:390945:	[CompilerGenerated]
+  dump.cs:390946:	// RVA: 0x7BBAF0 Offset: 0x7BA2F0 VA: 0x1807BBAF0
+  dump.cs:390947:	private void eha(bool a, string b) { }
+  dump.cs:390948:
+  dump.cs:390949:	[CompilerGenerated]
+  dump.cs:390950:	// RVA: 0x7BBE90 Offset: 0x7BA690 VA: 0x1807BBE90
+  dump.cs:390951:	private void ehb(bool a, SteamSyncResponse b, string c) { }
+  dump.cs:390952:
+  dump.cs:390953:	[CompilerGenerated]
+  dump.cs:390954:	// RVA: 0x7BC030 Offset: 0x7BA830 VA: 0x1807BC030
+  dump.cs:390955:	internal static bool ehc(ItemData a, string b) { }
+  dump.cs:390956:
+  dump.cs:733530:	public void add_Updated(Action<Vector3, Quaternion> value) { }
+  dump.cs:733531:
+  dump.cs:733532:	[CompilerGenerated]
+  dump.cs:733533:	// RVA: 0x27A5970 Offset: 0x27A4170 VA: 0x1827A5970
+  dump.cs:733534:	public void remove_Updated(Action<Vector3, Quaternion> value) { }
+  dump.cs:733535:
+  dump.cs:733536:	[CompilerGenerated]
+  dump.cs:733537:	// RVA: 0x27A5A90 Offset: 0x27A4290 VA: 0x1827A5A90
+  dump.cs:733538:	public void add_Completed(Action value) { }
+  dump.cs:733539:
+  dump.cs:733540:	[CompilerGenerated]
+  dump.cs:733541:	// RVA: 0x27A5B90 Offset: 0x27A4390 VA: 0x1827A5B90
+  dump.cs:733542:	public void remove_Completed(Action value) { }
+  dump.cs:733543:
+  dump.cs:733544:	// RVA: 0x27A5C90 Offset: 0x27A4490 VA: 0x1827A5C90
+  dump.cs:733545:	private void Awake() { }
+  dump.cs:733546:
+  dump.cs:733547:	// RVA: 0x27A5CA0 Offset: 0x27A44A0 VA: 0x1827A5CA0
+  dump.cs:733548:	private void OnEnable() { }
+  dump.cs:733549:
+> dump.cs:733550:	// RVA: 0x27A5D40 Offset: 0x27A4540 VA: 0x1827A5D40
+  dump.cs:733551:	private void OnDisable() { }
+  dump.cs:733552:
+  dump.cs:733553:	// RVA: 0x27A5DC0 Offset: 0x27A45C0 VA: 0x1827A5DC0
+  dump.cs:733554:	private void OnValidate() { }
+  dump.cs:733555:
+  dump.cs:733556:	// RVA: 0x27A5DF0 Offset: 0x27A45F0 VA: 0x1827A5DF0
+  dump.cs:733557:	internal void RecalculateAnimationParameters() { }
+  dump.cs:733558:
+  dump.cs:733559:	// RVA: 0x27A5F10 Offset: 0x27A4710 VA: 0x1827A5F10
+  dump.cs:733560:	private bool IsNullOrEmptyContainer() { }
+  dump.cs:733561:
+  dump.cs:733562:	// RVA: 0x27A6110 Offset: 0x27A4910 VA: 0x1827A6110
+  dump.cs:733563:	public void Play() { }
+  dump.cs:733564:
+  dump.cs:733565:	// RVA: 0x27A6130 Offset: 0x27A4930 VA: 0x1827A6130
+  dump.cs:733566:	public void Pause() { }
+  dump.cs:733567:
+  dump.cs:733568:	// RVA: 0x27A6140 Offset: 0x27A4940 VA: 0x1827A6140
+  dump.cs:733569:	public void Restart(bool autoplay) { }
+  dump.cs:733570:
+
+
