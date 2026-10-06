@@ -1,0 +1,1420 @@
+﻿
+  dump.cs:250227:	private void Associate(string thisOrContextObject, string memberName, string first, string second) { 
+}
+  dump.cs:250228:
+  dump.cs:250229:	[Conditional("DEBUG_NETEVENTSOURCE_MISUSE")]
+  dump.cs:250230:	// RVA: 0x2182E20 Offset: 0x2181620 VA: 0x182182E20
+  dump.cs:250231:	private static void DebugValidateArg(object arg) { }
+  dump.cs:250232:
+  dump.cs:250233:	[Conditional("DEBUG_NETEVENTSOURCE_MISUSE")]
+  dump.cs:250234:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:250235:	private static void DebugValidateArg(FormattableString arg) { }
+  dump.cs:250236:
+  dump.cs:250237:	// RVA: 0x2182E70 Offset: 0x2181670 VA: 0x182182E70
+  dump.cs:250238:	public static bool get_IsEnabled() { }
+  dump.cs:250239:
+  dump.cs:250240:	[NonEvent]
+  dump.cs:250241:	// RVA: 0x2182ED0 Offset: 0x21816D0 VA: 0x182182ED0
+> dump.cs:250242:	public static string IdOf(object value) { }
+  dump.cs:250243:
+  dump.cs:250244:	[NonEvent]
+  dump.cs:250245:	// RVA: 0x2183040 Offset: 0x2181840 VA: 0x182183040
+  dump.cs:250246:	public static int GetHashCode(object value) { }
+  dump.cs:250247:
+  dump.cs:250248:	[NonEvent]
+  dump.cs:250249:	// RVA: 0x2183060 Offset: 0x2181860 VA: 0x182183060
+  dump.cs:250250:	public static object Format(object value) { }
+  dump.cs:250251:
+  dump.cs:250252:	[NonEvent]
+  dump.cs:250253:	// RVA: 0x2183460 Offset: 0x2181C60 VA: 0x182183460
+  dump.cs:250254:	private static string Format(FormattableString s) { }
+  dump.cs:250255:
+  dump.cs:250256:	[NonEvent]
+  dump.cs:250257:	// RVA: 0x2183920 Offset: 0x2182120 VA: 0x182183920
+  dump.cs:250258:	private void WriteEvent(int eventId, string arg1, string arg2, string arg3, string arg4) { }
+  dump.cs:250259:
+  dump.cs:250260:	[NonEvent]
+  dump.cs:250261:	// RVA: 0x2183960 Offset: 0x2182160 VA: 0x182183960
+  dump.cs:250262:	private void WriteEvent(int eventId, string arg1, string arg2, byte[] arg3) { }
+  dump.cs:250263:
+  dump.cs:250264:	[NonEvent]
+  dump.cs:250265:	// RVA: 0x21839B0 Offset: 0x21821B0 VA: 0x1821839B0
+  dump.cs:250266:	private void WriteEvent(int eventId, string arg1, int arg2, int arg3, int arg4) { }
+  dump.cs:250267:
+  dump.cs:250268:	[NonEvent]
+  dump.cs:250269:	// RVA: 0x21839F0 Offset: 0x21821F0 VA: 0x1821839F0
+  dump.cs:250270:	private void WriteEvent(int eventId, string arg1, int arg2, string arg3) { }
+  dump.cs:250271:
+  dump.cs:250272:	[NonEvent]
+  dump.cs:250273:	// RVA: 0x2183A30 Offset: 0x2182230 VA: 0x182183A30
+  dump.cs:250274:	private void WriteEvent(int eventId, string arg1, string arg2, int arg3) { }
+  dump.cs:250275:
+  dump.cs:250276:	[NonEvent]
+  dump.cs:250277:	// RVA: 0x2183A70 Offset: 0x2182270 VA: 0x182183A70
+  dump.cs:250278:	private void WriteEvent(int eventId, string arg1, string arg2, string arg3, int arg4) { }
+  dump.cs:250279:
+  dump.cs:250280:	[Event(10, Keywords = 1, Level = 4)]
+  dump.cs:250281:	// RVA: 0x2183AB0 Offset: 0x21822B0 VA: 0x182183AB0
+  dump.cs:250282:	public void AcquireDefaultCredential(string packageName, Interop.SspiCli.CredentialUse intent) { }
+  dump.cs:294363:
+  dump.cs:294364:	[VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  dump.cs:294365:	// RVA: 0x2B10AA0 Offset: 0x2B0F2A0 VA: 0x182B10AA0
+  dump.cs:294366:	internal void GetExpandedItemIds(List<int> list) { }
+  dump.cs:294367:
+  dump.cs:294368:	// RVA: 0x2B110A0 Offset: 0x2B0F8A0 VA: 0x182B110A0
+  dump.cs:294369:	internal bool IsViewDataKeyEnabled() { }
+  dump.cs:294370:
+  dump.cs:294371:	// RVA: 0x2B11100 Offset: 0x2B0F900 VA: 0x182B11100 Slot: 19
+  dump.cs:294372:	internal override void PreRefresh() { }
+  dump.cs:294373:
+  dump.cs:294374:	// RVA: 0x2B11110 Offset: 0x2B0F910 VA: 0x182B11110
+  dump.cs:294375:	private bool IsIndexValid(int index) { }
+  dump.cs:294376:
+  dump.cs:294377:	// RVA: 0x2B11170 Offset: 0x2B0F970 VA: 0x182B11170
+> dump.cs:294378:	private bool IsChildOf(int childId, int id) { }
+  dump.cs:294379:
+  dump.cs:294380:	// RVA: 0x2B11340 Offset: 0x2B0FB40 VA: 0x182B11340
+  dump.cs:294381:	internal void RaiseItemParentChanged(int id, int newParentId) { }
+  dump.cs:294382:
+  dump.cs:294383:	// RVA: 0x2B11360 Offset: 0x2B0FB60 VA: 0x182B11360
+  dump.cs:294384:	internal HierarchyNode CreateNode(in HierarchyNode parent) { }
+  dump.cs:294385:
+  dump.cs:294386:	// RVA: 0x2B11460 Offset: 0x2B0FC60 VA: 0x182B11460
+  dump.cs:294387:	internal void UpdateIdToNodeDictionary(int id, in HierarchyNode node, bool isAdd = True) { }
+  dump.cs:294388:
+  dump.cs:294389:	// RVA: 0x2B115D0 Offset: 0x2B0FDD0 VA: 0x182B115D0
+  dump.cs:294390:	internal void ClearIdToNodeDictionary() { }
+  dump.cs:294391:
+  dump.cs:294392:	// RVA: 0x2B11660 Offset: 0x2B0FE60 VA: 0x182B11660
+  dump.cs:294393:	internal void UpdateSortOrder(in HierarchyNode newParent, in HierarchyNode insertedNode, int 
+insertedIndex) { }
+  dump.cs:294394:
+  dump.cs:294395:	// RVA: 0x2B11A10 Offset: 0x2B10210 VA: 0x182B11A10
+  dump.cs:294396:	internal void OnViewDataReadyUpdateNodes() { }
+  dump.cs:294397:
+  dump.cs:294398:	// RVA: 0x2B11CD0 Offset: 0x2B104D0 VA: 0x182B11CD0
+  dump.cs:294399:	internal void UpdateHierarchy() { }
+  dump.cs:294400:
+  dump.cs:294401:	// RVA: 0x2B11F60 Offset: 0x2B10760 VA: 0x182B11F60
+  dump.cs:294402:	internal HierarchyNode GetHierarchyNodeById(int id) { }
+  dump.cs:294403:
+  dump.cs:294404:	// RVA: 0x2B120C0 Offset: 0x2B108C0 VA: 0x182B120C0
+  dump.cs:294405:	internal HierarchyNode GetHierarchyNodeByIndex(int index) { }
+  dump.cs:294406:
+  dump.cs:294407:	// RVA: 0x2B121B0 Offset: 0x2B109B0 VA: 0x182B121B0
+  dump.cs:294408:	private static void .cctor() { }
+  dump.cs:294409:}
+  dump.cs:294410:
+  dump.cs:294411:// Namespace: UnityEngine.UIElements
+  dump.cs:294412:public abstract class CollectionViewController : IDisposable // TypeDefIndex: 3961
+  dump.cs:294413:{
+  dump.cs:294414:	// Fields
+  dump.cs:294415:	private BaseVerticalCollectionView m_View; // 0x10
+  dump.cs:294416:	private IList m_ItemsSource; // 0x18
+  dump.cs:294417:	[CompilerGenerated]
+  dump.cs:294418:	[DebuggerBrowsable(0)]
+  dump.cs:379571:	public bool cdv() { }
+  dump.cs:379572:
+  dump.cs:379573:	// RVA: 0x6F36E0 Offset: 0x6F1EE0 VA: 0x1806F36E0
+  dump.cs:379574:	public bool cdw() { }
+  dump.cs:379575:
+  dump.cs:379576:	// RVA: 0x6F3700 Offset: 0x6F1F00 VA: 0x1806F3700
+  dump.cs:379577:	public bool cdx() { }
+  dump.cs:379578:
+  dump.cs:379579:	// RVA: 0x6F3720 Offset: 0x6F1F20 VA: 0x1806F3720
+  dump.cs:379580:	public bool cdy() { }
+  dump.cs:379581:
+  dump.cs:379582:	// RVA: 0x6F3740 Offset: 0x6F1F40 VA: 0x1806F3740
+  dump.cs:379583:	public bool cdz() { }
+  dump.cs:379584:
+  dump.cs:379585:	// RVA: 0x6F3760 Offset: 0x6F1F60 VA: 0x1806F3760
+> dump.cs:379586:	public bool cea(GeneratedItemData a) { }
+  dump.cs:379587:
+  dump.cs:379588:	// RVA: 0x6F3800 Offset: 0x6F2000 VA: 0x1806F3800
+  dump.cs:379589:	public bool ceb(HeroClass a) { }
+  dump.cs:379590:
+  dump.cs:379591:	// RVA: 0x6F3820 Offset: 0x6F2020 VA: 0x1806F3820 Slot: 4
+  dump.cs:379592:	public virtual List<StatusEffectData> cec() { }
+  dump.cs:379593:
+  dump.cs:379594:	// RVA: 0x6F3A70 Offset: 0x6F2270 VA: 0x1806F3A70
+  dump.cs:379595:	public void .ctor() { }
+  dump.cs:379596:}
+  dump.cs:379597:
+  dump.cs:379598:// Namespace: 
+  dump.cs:379599:[Serializable]
+  dump.cs:379600:public class SlotAffixPool // TypeDefIndex: 5840
+  dump.cs:379601:{
+  dump.cs:379602:	// Fields
+  dump.cs:379603:	public EquipSlotType Slot; // 0x10
+  dump.cs:379604:	public List<StatType> Primary; // 0x18
+  dump.cs:379605:	public List<StatType> Secondary; // 0x20
+  dump.cs:379606:
+  dump.cs:379607:	// Methods
+  dump.cs:379608:
+  dump.cs:379609:	// RVA: 0x6F3AD0 Offset: 0x6F22D0 VA: 0x1806F3AD0
+  dump.cs:379610:	public void .ctor() { }
+  dump.cs:379611:}
+  dump.cs:379612:
+  dump.cs:379613:// Namespace: 
+  dump.cs:379614:[Serializable]
+  dump.cs:379615:public class SlotSocketConfig // TypeDefIndex: 5841
+  dump.cs:379616:{
+  dump.cs:379617:	// Fields
+  dump.cs:379618:	public EquipSlotType Slot; // 0x10
+  dump.cs:379619:	public int MaxSockets; // 0x14
+  dump.cs:379620:
+  dump.cs:379621:	// Methods
+  dump.cs:379622:
+  dump.cs:379623:	// RVA: 0x6F3C10 Offset: 0x6F2410 VA: 0x1806F3C10
+  dump.cs:379624:	public void .ctor() { }
+  dump.cs:379625:}
+  dump.cs:379626:
+  dump.cs:384689:	public const AudioClipEnum Salvage = 36;
+  dump.cs:384690:	public const AudioClipEnum RevealEnter = 37;
+  dump.cs:384691:	public const AudioClipEnum RevealChoiceSelect = 38;
+  dump.cs:384692:	public const AudioClipEnum Immune = 39;
+  dump.cs:384693:	public const AudioClipEnum NotificationDismissed = 40;
+  dump.cs:384694:	public const AudioClipEnum MythicEnter = 41;
+  dump.cs:384695:	public const AudioClipEnum MythicTierSelect = 42;
+  dump.cs:384696:}
+  dump.cs:384697:
+  dump.cs:384698:// Namespace: 
+  dump.cs:384699:[CompilerGenerated]
+  dump.cs:384700:private sealed class eo.ek // TypeDefIndex: 5977
+  dump.cs:384701:{
+  dump.cs:384702:	// Fields
+  dump.cs:384703:	public string mob; // 0x10
+> dump.cs:384704:	public GeneratedItemData moc; // 0x18
+  dump.cs:384705:	public BlackMistRevealState mod; // 0x20
+  dump.cs:384706:
+  dump.cs:384707:	// Methods
+  dump.cs:384708:
+  dump.cs:384709:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:384710:	public void .ctor() { }
+  dump.cs:384711:
+  dump.cs:384712:	// RVA: 0x7496E0 Offset: 0x747EE0 VA: 0x1807496E0
+  dump.cs:384713:	internal void cxf(bool a, PlanModifier[] b, string c) { }
+  dump.cs:384714:}
+  dump.cs:384715:
+  dump.cs:384716:// Namespace: 
+  dump.cs:384717:[CompilerGenerated]
+  dump.cs:384718:private sealed class eo.el // TypeDefIndex: 5978
+  dump.cs:384719:{
+  dump.cs:384720:	// Fields
+  dump.cs:384721:	public Action<bool> moe; // 0x10
+> dump.cs:384722:	public GeneratedItemData mof; // 0x18
+  dump.cs:384723:	public string mog; // 0x20
+  dump.cs:384724:
+  dump.cs:384725:	// Methods
+  dump.cs:384726:
+  dump.cs:384727:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:384728:	public void .ctor() { }
+  dump.cs:384729:
+  dump.cs:384730:	// RVA: 0x749960 Offset: 0x748160 VA: 0x180749960
+  dump.cs:384731:	internal void cxg(BlackMistRevealSlot[] a) { }
+  dump.cs:384732:}
+  dump.cs:384733:
+  dump.cs:384734:// Namespace: 
+  dump.cs:384735:[CompilerGenerated]
+  dump.cs:384736:private sealed class eo.en // TypeDefIndex: 5979
+  dump.cs:384737:{
+  dump.cs:384738:	// Fields
+  dump.cs:384739:	public Action<BlackMistRevealSlot[]> moh; // 0x10
+  dump.cs:384740:
+  dump.cs:384741:	// Methods
+  dump.cs:384742:
+  dump.cs:384743:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:384744:	public void .ctor() { }
+  dump.cs:384745:
+  dump.cs:384746:	// RVA: 0x749B40 Offset: 0x748340 VA: 0x180749B40
+  dump.cs:384747:	internal void cxh(bool a, CloudClient.RevealChoicePair[] b, bool c, string d) { }
+  dump.cs:384748:}
+  dump.cs:384749:
+  dump.cs:384750:// Namespace: 
+  dump.cs:384751:public static class eo // TypeDefIndex: 5980
+  dump.cs:384752:{
+  dump.cs:384753:	// Fields
+  dump.cs:384754:	[CompilerGenerated]
+  dump.cs:384755:	private static Action<string> moi; // 0x0
+  dump.cs:384756:
+  dump.cs:384757:	// Properties
+  dump.cs:384758:	private static bool rbg { get; }
+  dump.cs:384759:
+  dump.cs:384760:	// Methods
+  dump.cs:384761:
+  dump.cs:384762:	[CompilerGenerated]
+  dump.cs:385669:	private void Awake() { }
+  dump.cs:385670:
+  dump.cs:385671:	// RVA: 0x753A90 Offset: 0x752290 VA: 0x180753A90
+  dump.cs:385672:	public ItemData dcd(EquipSlotId a) { }
+  dump.cs:385673:
+  dump.cs:385674:	// RVA: 0x753B10 Offset: 0x752310 VA: 0x180753B10
+  dump.cs:385675:	public static EquipSlotType dce(EquipSlotId a) { }
+  dump.cs:385676:
+  dump.cs:385677:	// RVA: 0x753BA0 Offset: 0x7523A0 VA: 0x180753BA0
+  dump.cs:385678:	public static bool dcf(ItemData a, EquipSlotId b) { }
+  dump.cs:385679:
+  dump.cs:385680:	// RVA: 0x753CC0 Offset: 0x7524C0 VA: 0x180753CC0
+  dump.cs:385681:	public static int dcg(ItemData a, string b) { }
+  dump.cs:385682:
+  dump.cs:385683:	// RVA: 0x753D60 Offset: 0x752560 VA: 0x180753D60
+> dump.cs:385684:	public static int dch(ItemData a, GeneratedItemData b) { }
+  dump.cs:385685:
+  dump.cs:385686:	// RVA: 0x753E80 Offset: 0x752680 VA: 0x180753E80
+  dump.cs:385687:	public static bool dci(ItemData a, string b) { }
+  dump.cs:385688:
+  dump.cs:385689:	// RVA: 0x753F60 Offset: 0x752760 VA: 0x180753F60
+  dump.cs:385690:	public static bool dcj(ItemData a) { }
+  dump.cs:385691:
+  dump.cs:385692:	// RVA: 0x753FE0 Offset: 0x7527E0 VA: 0x180753FE0
+  dump.cs:385693:	public static bool dck(string a) { }
+  dump.cs:385694:
+  dump.cs:385695:	// RVA: 0x754060 Offset: 0x752860 VA: 0x180754060
+  dump.cs:385696:	public bool dcl(ItemData a, string b, EquipSlotId c) { }
+  dump.cs:385697:
+  dump.cs:385698:	// RVA: 0x754270 Offset: 0x752A70 VA: 0x180754270
+  dump.cs:385699:	public static void dcm(ItemData a, string b, RectTransform c) { }
+  dump.cs:385700:
+  dump.cs:385701:	// RVA: 0x7543C0 Offset: 0x752BC0 VA: 0x1807543C0
+  dump.cs:385702:	public static void dcn(ItemData a, RectTransform b) { }
+  dump.cs:385703:
+  dump.cs:385704:	// RVA: 0x754530 Offset: 0x752D30 VA: 0x180754530
+  dump.cs:385705:	public static void dco(RectTransform a) { }
+  dump.cs:385706:
+  dump.cs:385707:	// RVA: 0x7545E0 Offset: 0x752DE0 VA: 0x1807545E0
+  dump.cs:385708:	public static void dcp(RectTransform a) { }
+  dump.cs:385709:
+  dump.cs:385710:	// RVA: 0x754690 Offset: 0x752E90 VA: 0x180754690
+  dump.cs:385711:	public static void dcq(RectTransform a) { }
+  dump.cs:385712:
+  dump.cs:385713:	// RVA: 0x754740 Offset: 0x752F40 VA: 0x180754740
+  dump.cs:385714:	public static void dcr(RectTransform a, string b) { }
+  dump.cs:385715:
+  dump.cs:385716:	// RVA: 0x7549C0 Offset: 0x7531C0 VA: 0x1807549C0
+  dump.cs:385717:	public ItemData dcs(ItemData a, EquipSlotId b, string c) { }
+  dump.cs:385718:
+  dump.cs:385719:	// RVA: 0x754B90 Offset: 0x753390 VA: 0x180754B90
+  dump.cs:385720:	public ItemData dct(EquipSlotId a) { }
+  dump.cs:385721:
+  dump.cs:385722:	// RVA: 0x754DB0 Offset: 0x7535B0 VA: 0x180754DB0
+  dump.cs:385723:	public Nullable<EquipSlotId> dcu(ItemData a) { }
+  dump.cs:385724:
+  dump.cs:387600:
+  dump.cs:387601:// Namespace: 
+  dump.cs:387602:public static class gh // TypeDefIndex: 6041
+  dump.cs:387603:{
+  dump.cs:387604:	// Methods
+  dump.cs:387605:
+  dump.cs:387606:	// RVA: 0x7729D0 Offset: 0x7711D0 VA: 0x1807729D0
+  dump.cs:387607:	private static int dnx(double a) { }
+  dump.cs:387608:
+  dump.cs:387609:	// RVA: 0x772A30 Offset: 0x771230 VA: 0x180772A30
+  dump.cs:387610:	public static int dny(ItemData a, string b) { }
+  dump.cs:387611:}
+  dump.cs:387612:
+  dump.cs:387613:// Namespace: 
+  dump.cs:387614:[Serializable]
+> dump.cs:387615:public class GeneratedItemData // TypeDefIndex: 6042
+  dump.cs:387616:{
+  dump.cs:387617:	// Fields
+  dump.cs:387618:	public int ItemLevel; // 0x10
+  dump.cs:387619:	public ItemRarity Rarity; // 0x14
+  dump.cs:387620:	public StatModifier[] Modifiers; // 0x18
+  dump.cs:387621:	public int UpgradeLevel; // 0x20
+  dump.cs:387622:	public int UpgradeAttempts; // 0x24
+  dump.cs:387623:	public int RuneLevel; // 0x28
+  dump.cs:387624:	public long RuneXP; // 0x30
+  dump.cs:387625:	public int SocketCount; // 0x38
+  dump.cs:387626:	public string[] SocketedGemBaseIds; // 0x40
+  dump.cs:387627:	public bool IsAncient; // 0x48
+  dump.cs:387628:	public bool Locked; // 0x49
+  dump.cs:387629:	public string InstanceId; // 0x50
+  dump.cs:387630:	public ChestContent[] ChestContents; // 0x58
+  dump.cs:387631:	public int ChestGold; // 0x60
+  dump.cs:387632:	public int SourceMapMinEnemyLevel; // 0x64
+  dump.cs:387633:	public bool SourceIsMythic; // 0x68
+  dump.cs:387634:	public bool IsBlackMist; // 0x69
+  dump.cs:387635:	public BlackMistRevealState BlackMistReveal; // 0x70
+  dump.cs:387636:	public bool Bound; // 0x78
+  dump.cs:387637:
+  dump.cs:387638:	// Properties
+  dump.cs:387639:	public bool reb { get; }
+  dump.cs:387640:	public bool rec { get; }
+  dump.cs:387641:
+  dump.cs:387642:	// Methods
+  dump.cs:387643:
+  dump.cs:387644:	// RVA: 0x772C50 Offset: 0x771450 VA: 0x180772C50
+  dump.cs:387645:	public bool dnz() { }
+  dump.cs:387646:
+  dump.cs:387647:	// RVA: 0x772C70 Offset: 0x771470 VA: 0x180772C70
+  dump.cs:387648:	public bool doa() { }
+  dump.cs:387649:
+  dump.cs:387650:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:387651:	public void .ctor() { }
+  dump.cs:387652:}
+  dump.cs:387653:
+  dump.cs:387654:// Namespace: 
+  dump.cs:387655:[Serializable]
+  dump.cs:387705:	public bool IsAncient; // 0x28
+  dump.cs:387706:	public bool IsBlackMist; // 0x29
+  dump.cs:387707:	public string InstanceId; // 0x30
+  dump.cs:387708:	public int SocketCount; // 0x38
+  dump.cs:387709:
+  dump.cs:387710:	// Methods
+  dump.cs:387711:
+  dump.cs:387712:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:387713:	public void .ctor() { }
+  dump.cs:387714:}
+  dump.cs:387715:
+  dump.cs:387716:// Namespace: 
+  dump.cs:387717:public static class gi // TypeDefIndex: 6046
+  dump.cs:387718:{
+  dump.cs:387719:	// Fields
+> dump.cs:387720:	private static readonly Dictionary<string, GeneratedItemData> myk; // 0x0
+  dump.cs:387721:
+  dump.cs:387722:	// Methods
+  dump.cs:387723:
+  dump.cs:387724:	// RVA: 0x772DF0 Offset: 0x7715F0 VA: 0x180772DF0
+  dump.cs:387725:	public static int dod(ItemRarity a) { }
+  dump.cs:387726:
+  dump.cs:387727:	// RVA: 0x772E00 Offset: 0x771600 VA: 0x180772E00
+> dump.cs:387728:	public static string doe(GeneratedItemData a) { }
+  dump.cs:387729:
+  dump.cs:387730:	// RVA: 0x772F30 Offset: 0x771730 VA: 0x180772F30
+> dump.cs:387731:	public static void dof(string a, GeneratedItemData b) { }
+  dump.cs:387732:
+  dump.cs:387733:	// RVA: 0x772FE0 Offset: 0x7717E0 VA: 0x180772FE0
+> dump.cs:387734:	public static GeneratedItemData dog(string a) { }
+  dump.cs:387735:
+  dump.cs:387736:	// RVA: 0x773090 Offset: 0x771890 VA: 0x180773090
+  dump.cs:387737:	public static void doh(string a) { }
+  dump.cs:387738:
+  dump.cs:387739:	// RVA: 0x773130 Offset: 0x771930 VA: 0x180773130
+  dump.cs:387740:	public static void doi() { }
+  dump.cs:387741:
+  dump.cs:387742:	// RVA: 0x7731B0 Offset: 0x7719B0 VA: 0x1807731B0
+> dump.cs:387743:	public static Dictionary<string, GeneratedItemData> doj() { }
+  dump.cs:387744:
+  dump.cs:387745:	// RVA: 0x773210 Offset: 0x771A10 VA: 0x180773210
+  dump.cs:387746:	public static int dok(string a) { }
+  dump.cs:387747:
+  dump.cs:387748:	// RVA: 0x773270 Offset: 0x771A70 VA: 0x180773270
+  dump.cs:387749:	public static ItemRarity dol(string a) { }
+  dump.cs:387750:
+  dump.cs:387751:	// RVA: 0x7732D0 Offset: 0x771AD0 VA: 0x1807732D0
+  dump.cs:387752:	public static int dom(string a) { }
+  dump.cs:387753:
+  dump.cs:387754:	// RVA: 0x773330 Offset: 0x771B30 VA: 0x180773330
+  dump.cs:387755:	public static string don(RuneData a, int b = 0, string c) { }
+  dump.cs:387756:
+  dump.cs:387757:	// RVA: 0x7734D0 Offset: 0x771CD0 VA: 0x1807734D0
+  dump.cs:387758:	public static int doo(string a) { }
+  dump.cs:387759:
+  dump.cs:387760:	// RVA: 0x773590 Offset: 0x771D90 VA: 0x180773590
+  dump.cs:387761:	public static long dop(string a) { }
+  dump.cs:387762:
+  dump.cs:387763:	// RVA: 0x7735F0 Offset: 0x771DF0 VA: 0x1807735F0
+  dump.cs:387764:	public static void doq(string a, int b, long c) { }
+  dump.cs:387765:
+  dump.cs:387766:	// RVA: 0x7736A0 Offset: 0x771EA0 VA: 0x1807736A0
+  dump.cs:387767:	public static int dor(string a) { }
+  dump.cs:387768:
+  dump.cs:387769:	// RVA: 0x773700 Offset: 0x771F00 VA: 0x180773700
+> dump.cs:387770:	private static void dos(GeneratedItemData a) { }
+  dump.cs:387771:
+  dump.cs:387772:	// RVA: 0x773770 Offset: 0x771F70 VA: 0x180773770
+  dump.cs:387773:	public static string[] dot(string a) { }
+  dump.cs:387774:
+  dump.cs:387775:	// RVA: 0x7737F0 Offset: 0x771FF0 VA: 0x1807737F0
+  dump.cs:387776:	public static string dou(string a, int b) { }
+  dump.cs:387777:
+  dump.cs:387778:	// RVA: 0x773880 Offset: 0x772080 VA: 0x180773880
+  dump.cs:387779:	public static int dov(string a) { }
+  dump.cs:387780:
+  dump.cs:387781:	// RVA: 0x7739A0 Offset: 0x7721A0 VA: 0x1807739A0
+  dump.cs:387782:	public static int dow(string a, string b) { }
+  dump.cs:387783:
+  dump.cs:387784:	// RVA: 0x773A70 Offset: 0x772270 VA: 0x180773A70
+  dump.cs:387785:	public static string dox(string a, int b) { }
+  dump.cs:387786:
+  dump.cs:387787:	// RVA: 0x773B30 Offset: 0x772330 VA: 0x180773B30
+  dump.cs:387788:	public static bool doy(string a) { }
+  dump.cs:387789:
+  dump.cs:387790:	// RVA: 0x773B90 Offset: 0x772390 VA: 0x180773B90
+  dump.cs:387791:	public static bool doz(string a) { }
+  dump.cs:387792:
+  dump.cs:387793:	// RVA: 0x773BF0 Offset: 0x7723F0 VA: 0x180773BF0
+> dump.cs:387794:	public static StatModifier[] dpa(string a) { }
+  dump.cs:387795:
+  dump.cs:387796:	// RVA: 0x773CA0 Offset: 0x7724A0 VA: 0x180773CA0
+  dump.cs:387797:	public static StatModifier[] dpb(StatModifier[] a, int b, ItemRarity c) { }
+  dump.cs:387798:
+  dump.cs:387799:	// RVA: 0x773F20 Offset: 0x772720 VA: 0x180773F20
+  dump.cs:387800:	private static void .cctor() { }
+  dump.cs:387801:}
+  dump.cs:387802:
+  dump.cs:387803:// Namespace: 
+  dump.cs:387804:public class gj // TypeDefIndex: 6047
+  dump.cs:387805:{
+  dump.cs:387806:	// Fields
+  dump.cs:387807:	public int myl; // 0x10
+  dump.cs:387808:	public HeroData mym; // 0x18
+  dump.cs:387809:	public int myn; // 0x20
+  dump.cs:387810:	public List<gk> myo; // 0x28
+  dump.cs:387811:	public LeaderboardBuildAbility[] myp; // 0x30
+  dump.cs:387812:	public LeaderboardBuildRune[] myq; // 0x38
+  dump.cs:387813:	public SlaveData myr; // 0x40
+  dump.cs:387814:	public int mys; // 0x48
+  dump.cs:387815:
+  dump.cs:387816:	// Methods
+  dump.cs:387817:
+  dump.cs:387818:	// RVA: 0x774000 Offset: 0x772800 VA: 0x180774000
+  dump.cs:387819:	public void .ctor() { }
+  dump.cs:387820:}
+  dump.cs:387821:
+  dump.cs:387822:// Namespace: 
+  dump.cs:387823:public class gk // TypeDefIndex: 6048
+  dump.cs:387824:{
+  dump.cs:387825:	// Fields
+  dump.cs:387826:	public EquipSlotId myt; // 0x10
+  dump.cs:387827:	public ItemData myu; // 0x18
+  dump.cs:387828:	public int myv; // 0x20
+  dump.cs:387829:	public ItemRarity myw; // 0x24
+  dump.cs:387830:	public int myx; // 0x28
+  dump.cs:387831:	public bool myy; // 0x2C
+  dump.cs:387832:	public bool myz; // 0x2D
+  dump.cs:387833:	public bool mza; // 0x2E
+  dump.cs:387834:	public int mzb; // 0x30
+  dump.cs:387835:	public ItemData[] mzc; // 0x38
+  dump.cs:387836:	public StatModifier[] mzd; // 0x40
+  dump.cs:387837:
+  dump.cs:387838:	// Methods
+  dump.cs:387839:
+  dump.cs:387840:	// RVA: 0x7740C0 Offset: 0x7728C0 VA: 0x1807740C0
+> dump.cs:387841:	public GeneratedItemData dpe() { }
+  dump.cs:387842:
+  dump.cs:387843:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:387844:	public void .ctor() { }
+  dump.cs:387845:}
+  dump.cs:387846:
+  dump.cs:387847:// Namespace: 
+  dump.cs:387848:public struct LeaderboardBuildAbility // TypeDefIndex: 6049
+  dump.cs:387849:{
+  dump.cs:387850:	// Fields
+  dump.cs:387851:	public AbilityData Ability; // 0x0
+  dump.cs:387852:	public int Level; // 0x8
+  dump.cs:387853:}
+  dump.cs:387854:
+  dump.cs:387855:// Namespace: 
+  dump.cs:387856:public struct LeaderboardBuildRune // TypeDefIndex: 6050
+  dump.cs:387857:{
+  dump.cs:387858:	// Fields
+  dump.cs:387859:	public RuneData Rune; // 0x0
+  dump.cs:387860:	public int Level; // 0x8
+  dump.cs:387861:}
+  dump.cs:387862:
+  dump.cs:387863:// Namespace: 
+  dump.cs:387864:private class gn.gl // TypeDefIndex: 6051
+  dump.cs:387865:{
+  dump.cs:387866:	// Fields
+  dump.cs:387867:	private readonly List<byte> mze; // 0x10
+  dump.cs:387868:	private int mzf; // 0x18
+  dump.cs:387869:
+  dump.cs:387870:	// Methods
+  dump.cs:387871:
+  dump.cs:387872:	// RVA: 0x7781F0 Offset: 0x7769F0 VA: 0x1807781F0
+  dump.cs:387873:	public void dpf(int a, int b) { }
+  dump.cs:387874:
+  dump.cs:387875:	// RVA: 0x778300 Offset: 0x776B00 VA: 0x180778300
+  dump.cs:387876:	public byte[] dpg(int a) { }
+  dump.cs:387877:
+  dump.cs:387878:	// RVA: 0x7783F0 Offset: 0x776BF0 VA: 0x1807783F0
+  dump.cs:387879:	public void .ctor() { }
+  dump.cs:387880:}
+  dump.cs:387881:
+  dump.cs:389450:	public static List<string> dyv() { }
+  dump.cs:389451:
+  dump.cs:389452:	// RVA: 0x796540 Offset: 0x794D40 VA: 0x180796540
+  dump.cs:389453:	public static void dyw(List<string> a) { }
+  dump.cs:389454:
+  dump.cs:389455:	// RVA: 0x796740 Offset: 0x794F40 VA: 0x180796740
+  dump.cs:389456:	private static void .cctor() { }
+  dump.cs:389457:}
+  dump.cs:389458:
+  dump.cs:389459:// Namespace: 
+  dump.cs:389460:[CompilerGenerated]
+  dump.cs:389461:private sealed class RuneManager.hh // TypeDefIndex: 6093
+  dump.cs:389462:{
+  dump.cs:389463:	// Fields
+  dump.cs:389464:	public Func<bool> nds; // 0x10
+> dump.cs:389465:	public GeneratedItemData ndt; // 0x18
+  dump.cs:389466:	public Action ndu; // 0x20
+  dump.cs:389467:	public Action<bool, AuctionActionResponse, AuctionErrorResponse> ndv; // 0x28
+  dump.cs:389468:
+  dump.cs:389469:	// Methods
+  dump.cs:389470:
+  dump.cs:389471:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:389472:	public void .ctor() { }
+  dump.cs:389473:
+  dump.cs:389474:	// RVA: 0x799820 Offset: 0x798020 VA: 0x180799820
+  dump.cs:389475:	internal void dyx() { }
+  dump.cs:389476:
+  dump.cs:389477:	// RVA: 0x7999A0 Offset: 0x7981A0 VA: 0x1807999A0
+  dump.cs:389478:	internal void dyy(bool a, AuctionActionResponse b, AuctionErrorResponse c) { }
+  dump.cs:389479:}
+  dump.cs:389480:
+  dump.cs:389481:// Namespace: 
+  dump.cs:389482:public class RuneManager : MonoBehaviour // TypeDefIndex: 6094
+  dump.cs:389483:{
+  dump.cs:389484:	// Fields
+  dump.cs:389485:	[CompilerGenerated]
+  dump.cs:389486:	private static RuneManager <ndw>k__BackingField; // 0x0
+  dump.cs:389487:	public const int MaxSlots = 6;
+  dump.cs:389488:	[CompilerGenerated]
+  dump.cs:389489:	private Action ndx; // 0x20
+  dump.cs:389490:	[CompilerGenerated]
+  dump.cs:389491:	private Action<int> ndy; // 0x28
+  dump.cs:389492:	private readonly RuneData[] ndz; // 0x30
+  dump.cs:389493:	private readonly string[] nea; // 0x38
+  dump.cs:389494:	private readonly Dictionary<RuneSetData, int> neb; // 0x40
+  dump.cs:389495:	[CompilerGenerated]
+  dump.cs:389496:	private static bool <nec>k__BackingField; // 0x8
+  dump.cs:389497:
+  dump.cs:389498:	// Properties
+  dump.cs:389499:	public static RuneManager ndw { get; set; }
+  dump.cs:389500:	public static bool nec { get; set; }
+  dump.cs:389501:
+  dump.cs:389502:	// Methods
+  dump.cs:389503:
+  dump.cs:389504:	[CompilerGenerated]
+  dump.cs:389505:	// RVA: 0x796820 Offset: 0x795020 VA: 0x180796820
+  dump.cs:390841:	private void efw(RecipeData a) { }
+  dump.cs:390842:
+  dump.cs:390843:	// RVA: 0x7B6AD0 Offset: 0x7B52D0 VA: 0x1807B6AD0
+  dump.cs:390844:	private void efx(ItemData a, string b, PickupSource c) { }
+  dump.cs:390845:
+  dump.cs:390846:	// RVA: 0x7B6AD0 Offset: 0x7B52D0 VA: 0x1807B6AD0
+  dump.cs:390847:	private void efy(ItemData a, int b) { }
+  dump.cs:390848:
+  dump.cs:390849:	// RVA: 0x7B6AE0 Offset: 0x7B52E0 VA: 0x1807B6AE0
+  dump.cs:390850:	private void OnApplicationQuit() { }
+  dump.cs:390851:
+  dump.cs:390852:	// RVA: 0x7B6CE0 Offset: 0x7B54E0 VA: 0x1807B6CE0
+  dump.cs:390853:	private void OnApplicationPause(bool paused) { }
+  dump.cs:390854:
+  dump.cs:390855:	// RVA: 0x7B6EB0 Offset: 0x7B56B0 VA: 0x1807B6EB0
+> dump.cs:390856:	private static SavedRegistryEntry efz(string a, GeneratedItemData b) { }
+  dump.cs:390857:
+  dump.cs:390858:	// RVA: 0x7B72B0 Offset: 0x7B5AB0 VA: 0x1807B72B0
+  dump.cs:390859:	private static List<SavedStatModifier> ega(StatModifier[] a) { }
+  dump.cs:390860:
+  dump.cs:390861:	// RVA: 0x7B75D0 Offset: 0x7B5DD0 VA: 0x1807B75D0
+  dump.cs:390862:	private static StatModifier[] egb(List<SavedStatModifier> a) { }
+  dump.cs:390863:
+  dump.cs:390864:	// RVA: 0x7B7890 Offset: 0x7B6090 VA: 0x1807B7890
+  dump.cs:390865:	private static SavedBlackMistReveal egc(BlackMistRevealState a) { }
+  dump.cs:390866:
+  dump.cs:390867:	// RVA: 0x7B7C40 Offset: 0x7B6440 VA: 0x1807B7C40
+  dump.cs:390868:	private static BlackMistRevealState egd(SavedBlackMistReveal a) { }
+  dump.cs:390869:
+  dump.cs:390870:	// RVA: 0x7B7F20 Offset: 0x7B6720 VA: 0x1807B7F20
+  dump.cs:390871:	private static SavedStatModifier ege(StatModifier a) { }
+  dump.cs:390872:
+  dump.cs:390873:	// RVA: 0x7B80E0 Offset: 0x7B68E0 VA: 0x1807B80E0
+  dump.cs:390874:	private static StatModifier egf(SavedStatModifier a) { }
+  dump.cs:390875:
+  dump.cs:390876:	// RVA: 0x7B8250 Offset: 0x7B6A50 VA: 0x1807B8250
+  dump.cs:390877:	private static List<SavedChestContent> egg(ChestContent[] a) { }
+  dump.cs:390878:
+  dump.cs:390879:	// RVA: 0x7B8600 Offset: 0x7B6E00 VA: 0x1807B8600
+  dump.cs:390880:	private static ChestContent[] egh(List<SavedChestContent> a) { }
+  dump.cs:390881:
+  dump.cs:390882:	// RVA: 0x7B8A70 Offset: 0x7B7270 VA: 0x1807B8A70
+  dump.cs:390883:	private static ItemRarity egi(string a) { }
+  dump.cs:390884:
+  dump.cs:390885:	// RVA: 0x7B8B30 Offset: 0x7B7330 VA: 0x1807B8B30
+  dump.cs:390886:	private static string egj(object a) { }
+  dump.cs:390887:
+  dump.cs:390888:	// RVA: 0x7B8B90 Offset: 0x7B7390 VA: 0x1807B8B90
+  dump.cs:390889:	private static string egk(string a) { }
+  dump.cs:390890:
+  dump.cs:390891:	// RVA: 0x7B9250 Offset: 0x7B7A50 VA: 0x1807B9250
+  dump.cs:390892:	private static int egl(string a, int b) { }
+  dump.cs:390893:
+  dump.cs:390894:	[CompilerGenerated]
+  dump.cs:390895:	// RVA: 0x7B93C0 Offset: 0x7B7BC0 VA: 0x1807B93C0
+  dump.cs:390896:	public bool egm() { }
+  dump.cs:396403:}
+  dump.cs:396404:
+  dump.cs:396405:// Namespace: 
+  dump.cs:396406:public class AuctionSlotUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, 
+IPointerExitHandler, IPointerClickHandler // TypeDefIndex: 6237
+  dump.cs:396407:{
+  dump.cs:396408:	// Fields
+  dump.cs:396409:	public Image IconImage; // 0x20
+  dump.cs:396410:	public Image RarityBgImage; // 0x28
+  dump.cs:396411:	public Image FrameImage; // 0x30
+  dump.cs:396412:	public Button ActionButton; // 0x38
+  dump.cs:396413:	public LocalizedTMPText ActionLabel; // 0x40
+  dump.cs:396414:	private static readonly Color nzy; // 0x0
+  dump.cs:396415:	[CompilerGenerated]
+  dump.cs:396416:	private AuctionListing <nzz>k__BackingField; // 0x48
+  dump.cs:396417:	private ItemData oaa; // 0x50
+> dump.cs:396418:	private GeneratedItemData oab; // 0x58
+  dump.cs:396419:	private AuctionUI oac; // 0x60
+  dump.cs:396420:	private bool oad; // 0x68
+  dump.cs:396421:
+  dump.cs:396422:	// Properties
+  dump.cs:396423:	public AuctionListing nzz { get; set; }
+  dump.cs:396424:
+  dump.cs:396425:	// Methods
+  dump.cs:396426:
+  dump.cs:396427:	[CompilerGenerated]
+  dump.cs:396428:	// RVA: 0x52C6F0 Offset: 0x52AEF0 VA: 0x18052C6F0
+  dump.cs:396429:	public AuctionListing fqm() { }
+  dump.cs:396430:
+  dump.cs:396431:	[CompilerGenerated]
+  dump.cs:396432:	// RVA: 0x52C700 Offset: 0x52AF00 VA: 0x18052C700
+  dump.cs:396433:	private void fqn(AuctionListing a) { }
+  dump.cs:396434:
+  dump.cs:396435:	// RVA: 0x52C760 Offset: 0x52AF60 VA: 0x18052C760
+  dump.cs:396436:	public void fqo(AuctionUI a) { }
+  dump.cs:396437:
+  dump.cs:396438:	// RVA: 0x52C880 Offset: 0x52B080 VA: 0x18052C880
+  dump.cs:396439:	public void fqp(AuctionListing a, bool b) { }
+  dump.cs:396440:
+  dump.cs:396441:	// RVA: 0x52CF40 Offset: 0x52B740 VA: 0x18052CF40
+  dump.cs:396442:	public void fqq(bool a) { }
+  dump.cs:396443:
+  dump.cs:396444:	// RVA: 0x52D050 Offset: 0x52B850 VA: 0x18052D050 Slot: 6
+  dump.cs:396445:	public void OnPointerClick(PointerEventData eventData) { }
+  dump.cs:396446:
+  dump.cs:396447:	// RVA: 0x52D160 Offset: 0x52B960 VA: 0x18052D160 Slot: 4
+  dump.cs:396448:	public void OnPointerEnter(PointerEventData eventData) { }
+  dump.cs:396449:
+  dump.cs:396450:	// RVA: 0x52D380 Offset: 0x52BB80 VA: 0x18052D380 Slot: 5
+  dump.cs:396451:	public void OnPointerExit(PointerEventData eventData) { }
+  dump.cs:396452:
+  dump.cs:396453:	// RVA: 0x4222F0 Offset: 0x420AF0 VA: 0x1804222F0
+  dump.cs:396454:	public void .ctor() { }
+  dump.cs:396455:
+  dump.cs:396456:	// RVA: 0x52D420 Offset: 0x52BC20 VA: 0x18052D420
+  dump.cs:396457:	private static void .cctor() { }
+  dump.cs:396458:
+  dump.cs:398370:	// Methods
+  dump.cs:398371:
+  dump.cs:398372:	// RVA: 0x529100 Offset: 0x527900 VA: 0x180529100 Slot: 4
+  dump.cs:398373:	protected override GameObject fpv() { }
+  dump.cs:398374:
+  dump.cs:398375:	// RVA: -1 Offset: -1 Slot: 12
+  dump.cs:398376:	protected abstract string fyf();
+  dump.cs:398377:
+  dump.cs:398378:	// RVA: -1 Offset: -1 Slot: 13
+  dump.cs:398379:	protected abstract string fyg();
+  dump.cs:398380:
+  dump.cs:398381:	// RVA: -1 Offset: -1 Slot: 14
+  dump.cs:398382:	protected abstract bool fyh(ItemData a, string b);
+  dump.cs:398383:
+  dump.cs:398384:	// RVA: -1 Offset: -1 Slot: 15
+> dump.cs:398385:	protected abstract void fyi(GeneratedItemData a);
+  dump.cs:398386:
+  dump.cs:398387:	// RVA: -1 Offset: -1 Slot: 16
+  dump.cs:398388:	protected abstract int fyj(string a);
+  dump.cs:398389:
+  dump.cs:398390:	// RVA: -1 Offset: -1 Slot: 17
+  dump.cs:398391:	protected abstract bool fyk(ItemData a, string b);
+  dump.cs:398392:
+  dump.cs:398393:	// RVA: -1 Offset: -1 Slot: 18
+  dump.cs:398394:	protected abstract void fyl(ItemData a, string b);
+  dump.cs:398395:
+  dump.cs:398396:	// RVA: 0x552780 Offset: 0x550F80 VA: 0x180552780
+  dump.cs:398397:	private void Start() { }
+  dump.cs:398398:
+  dump.cs:398399:	// RVA: 0x552C40 Offset: 0x551440 VA: 0x180552C40 Slot: 11
+  dump.cs:398400:	protected override void OnDestroy() { }
+  dump.cs:398401:
+  dump.cs:398402:	// RVA: 0x5530E0 Offset: 0x5518E0 VA: 0x1805530E0 Slot: 8
+  dump.cs:398403:	protected override void fpy() { }
+  dump.cs:398404:
+  dump.cs:398405:	// RVA: 0x5532C0 Offset: 0x551AC0 VA: 0x1805532C0 Slot: 9
+  dump.cs:398406:	protected override void fqy() { }
+  dump.cs:398407:
+  dump.cs:398408:	// RVA: 0x553330 Offset: 0x551B30 VA: 0x180553330
+  dump.cs:398409:	public bool fym(ItemData a, string b) { }
+  dump.cs:398410:
+  dump.cs:398411:	// RVA: 0x5533A0 Offset: 0x551BA0 VA: 0x1805533A0
+  dump.cs:398412:	protected void fyn() { }
+  dump.cs:398413:
+  dump.cs:398414:	// RVA: 0x553800 Offset: 0x552000 VA: 0x180553800
+  dump.cs:398415:	protected void fyo(int a, IEnumerable<CraftingIngredient> b, bool c) { }
+  dump.cs:398416:
+  dump.cs:398417:	// RVA: 0x553D90 Offset: 0x552590 VA: 0x180553D90
+  dump.cs:398418:	private void fyp() { }
+  dump.cs:398419:
+  dump.cs:398420:	// RVA: 0x554000 Offset: 0x552800 VA: 0x180554000
+  dump.cs:398421:	private void fyq() { }
+  dump.cs:398422:
+  dump.cs:398423:	// RVA: 0x554290 Offset: 0x552A90 VA: 0x180554290
+  dump.cs:398424:	private void fyr() { }
+  dump.cs:398425:
+  dump.cs:400459:	// RVA: 0x4222F0 Offset: 0x420AF0 VA: 0x1804222F0
+  dump.cs:400460:	public void .ctor() { }
+  dump.cs:400461:}
+  dump.cs:400462:
+  dump.cs:400463:// Namespace: 
+  dump.cs:400464:public class LeaderboardInspectSlotUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, 
+IPointerExitHandler // TypeDefIndex: 6326
+  dump.cs:400465:{
+  dump.cs:400466:	// Fields
+  dump.cs:400467:	public Image IconImage; // 0x20
+  dump.cs:400468:	public Image RarityBgImage; // 0x28
+  dump.cs:400469:	public GemSocketStripUI SocketStrip; // 0x30
+  dump.cs:400470:	public UpgradeStarsUI UpgradeStars; // 0x38
+  dump.cs:400471:	public EquipSlotId SlotId; // 0x40
+  dump.cs:400472:	private Sprite olc; // 0x48
+  dump.cs:400473:	private gk old; // 0x50
+> dump.cs:400474:	private GeneratedItemData ole; // 0x58
+  dump.cs:400475:
+  dump.cs:400476:	// Methods
+  dump.cs:400477:
+  dump.cs:400478:	// RVA: 0x58A530 Offset: 0x588D30 VA: 0x18058A530
+  dump.cs:400479:	private void Awake() { }
+  dump.cs:400480:
+  dump.cs:400481:	// RVA: 0x58A670 Offset: 0x588E70 VA: 0x18058A670
+  dump.cs:400482:	public void ghy(gk a) { }
+  dump.cs:400483:
+  dump.cs:400484:	// RVA: 0x58AE00 Offset: 0x589600 VA: 0x18058AE00 Slot: 4
+  dump.cs:400485:	public void OnPointerEnter(PointerEventData eventData) { }
+  dump.cs:400486:
+  dump.cs:400487:	// RVA: 0x58AFB0 Offset: 0x5897B0 VA: 0x18058AFB0 Slot: 5
+  dump.cs:400488:	public void OnPointerExit(PointerEventData eventData) { }
+  dump.cs:400489:
+  dump.cs:400490:	// RVA: 0x4222F0 Offset: 0x420AF0 VA: 0x1804222F0
+  dump.cs:400491:	public void .ctor() { }
+  dump.cs:400492:}
+  dump.cs:400493:
+  dump.cs:400494:// Namespace: 
+  dump.cs:400495:public class LeaderboardInspectUI : MonoBehaviour // TypeDefIndex: 6327
+  dump.cs:400496:{
+  dump.cs:400497:	// Fields
+  dump.cs:400498:	public GameObject Panel; // 0x20
+  dump.cs:400499:	public Button CloseButton; // 0x28
+  dump.cs:400500:	public TextMeshProUGUI NameText; // 0x30
+  dump.cs:400501:	public Image ClassIcon; // 0x38
+  dump.cs:400502:	public TextMeshProUGUI TimeText; // 0x40
+  dump.cs:400503:	public LeaderboardInspectSlotUI WeaponSlot; // 0x48
+  dump.cs:400504:	public LeaderboardInspectSlotUI HelmSlot; // 0x50
+  dump.cs:400505:	public LeaderboardInspectSlotUI ChestSlot; // 0x58
+  dump.cs:400506:	public LeaderboardInspectSlotUI PantsSlot; // 0x60
+  dump.cs:400507:	public LeaderboardInspectSlotUI BootsSlot; // 0x68
+  dump.cs:400508:	public LeaderboardInspectSlotUI BeltSlot; // 0x70
+  dump.cs:400509:	public LeaderboardInspectSlotUI Ring1Slot; // 0x78
+  dump.cs:400510:	public LeaderboardInspectSlotUI Ring2Slot; // 0x80
+  dump.cs:400511:	public LeaderboardInspectSlotUI NecklaceSlot; // 0x88
+  dump.cs:400512:	public LeaderboardInspectSlotUI ShoulderSlot; // 0x90
+  dump.cs:400513:	public LeaderboardInspectSlotUI GlovesSlot; // 0x98
+  dump.cs:400514:	public LeaderboardInspectSlotUI BackSlot; // 0xA0
+  dump.cs:401730:	public void .ctor() { }
+  dump.cs:401731:
+  dump.cs:401732:	[CompilerGenerated]
+  dump.cs:401733:	// RVA: 0x5A4350 Offset: 0x5A2B50 VA: 0x1805A4350
+  dump.cs:401734:	private void gnd(float a) { }
+  dump.cs:401735:}
+  dump.cs:401736:
+  dump.cs:401737:// Namespace: 
+  dump.cs:401738:public class MailAttachmentSlotUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, 
+IPointerExitHandler // TypeDefIndex: 6353
+  dump.cs:401739:{
+  dump.cs:401740:	// Fields
+  dump.cs:401741:	public Image Icon; // 0x20
+  dump.cs:401742:	public Image RarityFrame; // 0x28
+  dump.cs:401743:	public TextMeshProUGUI CountText; // 0x30
+  dump.cs:401744:	private ItemData opk; // 0x38
+> dump.cs:401745:	private GeneratedItemData opl; // 0x40
+  dump.cs:401746:
+  dump.cs:401747:	// Methods
+  dump.cs:401748:
+  dump.cs:401749:	// RVA: 0x5A6220 Offset: 0x5A4A20 VA: 0x1805A6220
+  dump.cs:401750:	public void gne(LedgerEntry a, ItemData b) { }
+  dump.cs:401751:
+  dump.cs:401752:	// RVA: 0x5A63F0 Offset: 0x5A4BF0 VA: 0x1805A63F0
+  dump.cs:401753:	public void gnf(MailStackItem a, ItemData b) { }
+  dump.cs:401754:
+  dump.cs:401755:	// RVA: 0x5A6570 Offset: 0x5A4D70 VA: 0x1805A6570
+  dump.cs:401756:	private void gng(ItemRarity a, bool b, bool c) { }
+  dump.cs:401757:
+  dump.cs:401758:	// RVA: 0x5A6700 Offset: 0x5A4F00 VA: 0x1805A6700 Slot: 4
+  dump.cs:401759:	public void OnPointerEnter(PointerEventData eventData) { }
+  dump.cs:401760:
+  dump.cs:401761:	// RVA: 0x5A6860 Offset: 0x5A5060 VA: 0x1805A6860 Slot: 5
+  dump.cs:401762:	public void OnPointerExit(PointerEventData eventData) { }
+  dump.cs:401763:
+  dump.cs:401764:	// RVA: 0x4222F0 Offset: 0x420AF0 VA: 0x1804222F0
+  dump.cs:401765:	public void .ctor() { }
+  dump.cs:401766:}
+  dump.cs:401767:
+  dump.cs:401768:// Namespace: 
+  dump.cs:401769:public class MailEntryUI : MonoBehaviour // TypeDefIndex: 6354
+  dump.cs:401770:{
+  dump.cs:401771:	// Fields
+  dump.cs:401772:	public Button Button; // 0x20
+  dump.cs:401773:	public TextMeshProUGUI FromText; // 0x28
+  dump.cs:401774:	public GameObject UnclaimedDot; // 0x30
+  dump.cs:401775:	public GameObject SelectedHighlight; // 0x38
+  dump.cs:401776:	private MailMessage opm; // 0x40
+  dump.cs:401777:	private Action<MailMessage> opn; // 0x48
+  dump.cs:401778:
+  dump.cs:401779:	// Methods
+  dump.cs:401780:
+  dump.cs:401781:	// RVA: 0x5A6900 Offset: 0x5A5100 VA: 0x1805A6900
+  dump.cs:401782:	private void Awake() { }
+  dump.cs:401783:
+  dump.cs:401784:	// RVA: 0x5A69B0 Offset: 0x5A51B0 VA: 0x1805A69B0
+  dump.cs:401785:	public void gnh(MailMessage a, bool b, Action<MailMessage> c) { }
+  dump.cs:406362:	protected override string fyf() { }
+  dump.cs:406363:
+  dump.cs:406364:	// RVA: 0x605BC0 Offset: 0x6043C0 VA: 0x180605BC0 Slot: 13
+  dump.cs:406365:	protected override string fyg() { }
+  dump.cs:406366:
+  dump.cs:406367:	// RVA: 0x605C00 Offset: 0x604400 VA: 0x180605C00 Slot: 10
+  dump.cs:406368:	protected override void Awake() { }
+  dump.cs:406369:
+  dump.cs:406370:	// RVA: 0x605EA0 Offset: 0x6046A0 VA: 0x180605EA0 Slot: 11
+  dump.cs:406371:	protected override void OnDestroy() { }
+  dump.cs:406372:
+  dump.cs:406373:	// RVA: 0x605FF0 Offset: 0x6047F0 VA: 0x180605FF0 Slot: 14
+  dump.cs:406374:	protected override bool fyh(ItemData a, string b) { }
+  dump.cs:406375:
+  dump.cs:406376:	// RVA: 0x606240 Offset: 0x604A40 VA: 0x180606240 Slot: 15
+> dump.cs:406377:	protected override void fyi(GeneratedItemData a) { }
+  dump.cs:406378:
+  dump.cs:406379:	// RVA: 0x606890 Offset: 0x605090 VA: 0x180606890 Slot: 16
+  dump.cs:406380:	protected override int fyj(string a) { }
+  dump.cs:406381:
+  dump.cs:406382:	// RVA: 0x6068A0 Offset: 0x6050A0 VA: 0x1806068A0 Slot: 17
+  dump.cs:406383:	protected override bool fyk(ItemData a, string b) { }
+  dump.cs:406384:
+  dump.cs:406385:	// RVA: 0x6068C0 Offset: 0x6050C0 VA: 0x1806068C0 Slot: 18
+  dump.cs:406386:	protected override void fyl(ItemData a, string b) { }
+  dump.cs:406387:
+  dump.cs:406388:	// RVA: 0x606A30 Offset: 0x605230 VA: 0x180606A30
+  dump.cs:406389:	public void .ctor() { }
+  dump.cs:406390:}
+  dump.cs:406391:
+  dump.cs:406392:// Namespace: 
+  dump.cs:406393:public class StandardPopupText : PopupText // TypeDefIndex: 6459
+  dump.cs:406394:{
+  dump.cs:406395:	// Fields
+  dump.cs:406396:	public float RiseDistance; // 0x50
+  dump.cs:406397:	public float RiseDuration; // 0x54
+  dump.cs:406398:	public Ease RiseEase; // 0x58
+  dump.cs:406399:	public float PulseScale; // 0x5C
+  dump.cs:406400:	public float PulseDuration; // 0x60
+  dump.cs:406401:	public Ease PulseEase; // 0x64
+  dump.cs:406402:	public float FadeDuration; // 0x68
+  dump.cs:406403:	public Ease FadeEase; // 0x6C
+  dump.cs:406404:	public float RandomOffsetX; // 0x70
+  dump.cs:406405:
+  dump.cs:406406:	// Methods
+  dump.cs:406407:
+  dump.cs:406408:	// RVA: 0x606A40 Offset: 0x605240 VA: 0x180606A40 Slot: 4
+  dump.cs:406409:	protected override void fwn() { }
+  dump.cs:406410:
+  dump.cs:406411:	// RVA: 0x606AC0 Offset: 0x6052C0 VA: 0x180606AC0 Slot: 5
+  dump.cs:406412:	protected override void fwo() { }
+  dump.cs:406413:
+  dump.cs:406414:	// RVA: 0x606EB0 Offset: 0x6056B0 VA: 0x180606EB0
+  dump.cs:406415:	public void .ctor() { }
+  dump.cs:406416:}
+  dump.cs:406417:
+  dump.cs:407418:
+  dump.cs:407419:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:407420:	public void .ctor() { }
+  dump.cs:407421:
+  dump.cs:407422:	// RVA: 0x6268D0 Offset: 0x6250D0 VA: 0x1806268D0
+  dump.cs:407423:	internal int hns(StatType a, StatType b) { }
+  dump.cs:407424:}
+  dump.cs:407425:
+  dump.cs:407426:// Namespace: 
+  dump.cs:407427:[CompilerGenerated]
+  dump.cs:407428:private struct EquipmentTooltipUI.<>c__DisplayClass52_0 // TypeDefIndex: 6483
+  dump.cs:407429:{
+  dump.cs:407430:	// Fields
+  dump.cs:407431:	public Dictionary<StatType, float> equippedByStat; // 0x0
+  dump.cs:407432:	public StatModifier[] modifiers; // 0x8
+> dump.cs:407433:	public GeneratedItemData gen; // 0x10
+  dump.cs:407434:}
+  dump.cs:407435:
+  dump.cs:407436:// Namespace: 
+  dump.cs:407437:[CompilerGenerated]
+  dump.cs:407438:private sealed class EquipmentTooltipUI.mh // TypeDefIndex: 6484
+  dump.cs:407439:{
+  dump.cs:407440:	// Fields
+  dump.cs:407441:	public StatModifier[] pcr; // 0x10
+  dump.cs:407442:
+  dump.cs:407443:	// Methods
+  dump.cs:407444:
+  dump.cs:407445:	// RVA: 0x42BC20 Offset: 0x42A420 VA: 0x18042BC20
+  dump.cs:407446:	public void .ctor() { }
+  dump.cs:407447:
+  dump.cs:407448:	// RVA: 0x6268F0 Offset: 0x6250F0 VA: 0x1806268F0
+  dump.cs:407449:	internal int hnt(int a, int b) { }
+  dump.cs:407450:}
+  dump.cs:407451:
+  dump.cs:407452:// Namespace: 
+  dump.cs:407453:public class EquipmentTooltipUI : MonoBehaviour // TypeDefIndex: 6485
+  dump.cs:407454:{
+  dump.cs:407455:	// Fields
+  dump.cs:407456:	public TextMeshProUGUI NameText; // 0x20
+  dump.cs:407457:	public TextMeshProUGUI RarityText; // 0x28
+  dump.cs:407458:	public Image IconImage; // 0x30
+  dump.cs:407459:	public Image RarityBgImage; // 0x38
+  dump.cs:407460:	public TextMeshProUGUI ItemLevelText; // 0x40
+  dump.cs:407461:	public TextMeshProUGUI RequiredLevelText; // 0x48
+  dump.cs:407462:	public TextMeshProUGUI SellValueText; // 0x50
+  dump.cs:407463:	public TextMeshProUGUI UsableClassesText; // 0x58
+  dump.cs:407464:	public RectTransform PanelRect; // 0x60
+  dump.cs:407465:	public GameObject EquippedIndicator; // 0x68
+  dump.cs:407466:	public GameObject AncientVisual; // 0x70
+  dump.cs:407467:	public UpgradeStarsUI UpgradeStars; // 0x78
+  dump.cs:407468:	public GameObject LegendaryVisual; // 0x80
+  dump.cs:407469:	public GameObject DivineVisual; // 0x88
+  dump.cs:407470:	public GameObject SetVisual; // 0x90
+  dump.cs:407471:	public GameObject BlackMistVisual; // 0x98
+  dump.cs:407472:	public GameObject TradableIndicator; // 0xA0
+  dump.cs:407473:	public GameObject ShortcutHintContainer; // 0xA8
+  dump.cs:407505:	public void hnu(string a) { }
+  dump.cs:407506:
+  dump.cs:407507:	// RVA: 0x620AD0 Offset: 0x61F2D0 VA: 0x180620AD0
+  dump.cs:407508:	public void hnv(bool a) { }
+  dump.cs:407509:
+  dump.cs:407510:	// RVA: 0x620BE0 Offset: 0x61F3E0 VA: 0x180620BE0
+  dump.cs:407511:	public void hnw(bool a) { }
+  dump.cs:407512:
+  dump.cs:407513:	// RVA: 0x620CF0 Offset: 0x61F4F0 VA: 0x180620CF0
+  dump.cs:407514:	private void hnx() { }
+  dump.cs:407515:
+  dump.cs:407516:	// RVA: 0x620EE0 Offset: 0x61F6E0 VA: 0x180620EE0
+  dump.cs:407517:	private static bool hny(GameObject a) { }
+  dump.cs:407518:
+  dump.cs:407519:	// RVA: 0x620FB0 Offset: 0x61F7B0 VA: 0x180620FB0
+> dump.cs:407520:	public void hnz(ItemData a, string b, StatModifier[] c, GeneratedItemData d) { }
+  dump.cs:407521:
+  dump.cs:407522:	// RVA: 0x622E80 Offset: 0x621680 VA: 0x180622E80
+  dump.cs:407523:	public void hoa(bool a) { }
+  dump.cs:407524:
+  dump.cs:407525:	// RVA: 0x622F00 Offset: 0x621700 VA: 0x180622F00
+> dump.cs:407526:	private void hob(ItemData a, GeneratedItemData b, StatModifier[] c, Dictionary<StatType, float> d, 
+Dictionary<StatType, float> e) { }
+  dump.cs:407527:
+  dump.cs:407528:	// RVA: 0x6240D0 Offset: 0x6228D0 VA: 0x1806240D0
+> dump.cs:407529:	private void hoc(ItemData a, GeneratedItemData b) { }
+  dump.cs:407530:
+  dump.cs:407531:	// RVA: 0x624990 Offset: 0x623190 VA: 0x180624990
+  dump.cs:407532:	public static string hod(GemData a, GemCategory b) { }
+  dump.cs:407533:
+  dump.cs:407534:	// RVA: 0x624D40 Offset: 0x623540 VA: 0x180624D40
+  dump.cs:407535:	private static string hoe(string a) { }
+  dump.cs:407536:
+  dump.cs:407537:	// RVA: 0x624DB0 Offset: 0x6235B0 VA: 0x180624DB0
+  dump.cs:407538:	private static float hof(StatModifier[] a, StatType b) { }
+  dump.cs:407539:
+  dump.cs:407540:	// RVA: 0x624E50 Offset: 0x623650 VA: 0x180624E50
+  dump.cs:407541:	private Nullable<float> hog(StatType a, Dictionary<StatType, float> b, Dictionary<StatType, float> 
+c) { }
+  dump.cs:407542:
+  dump.cs:407543:	// RVA: 0x624F70 Offset: 0x623770 VA: 0x180624F70
+  dump.cs:407544:	private void hoh(Dictionary<StatType, float> a, Dictionary<StatType, float> b) { }
+  dump.cs:407545:
+  dump.cs:407546:	// RVA: 0x625B30 Offset: 0x624330 VA: 0x180625B30
+  dump.cs:407547:	private static int[] hoi(StatModifier[] a) { }
+  dump.cs:407548:
+  dump.cs:407549:	// RVA: 0x625D30 Offset: 0x624530 VA: 0x180625D30
+  dump.cs:407550:	private static Dictionary<StatType, float> hoj(StatModifier[] a) { }
+  dump.cs:407551:
+  dump.cs:407552:	// RVA: 0x625FD0 Offset: 0x6247D0 VA: 0x180625FD0
+  dump.cs:407553:	public static bool hok(StatType a, bool b) { }
+  dump.cs:407554:
+  dump.cs:407555:	// RVA: 0x625FF0 Offset: 0x6247F0 VA: 0x180625FF0
+  dump.cs:407556:	private void hol(StatModifier a, AttributeCategory b, List<EquipmentTooltipAttributeUI> c, Transform 
+d, ref int e, Nullable<float> f, float g) { }
+  dump.cs:407557:
+  dump.cs:407558:	// RVA: 0x6261C0 Offset: 0x6249C0 VA: 0x1806261C0
+  dump.cs:407559:	private void hom(string a, AttributeCategory b, List<EquipmentTooltipAttributeUI> c, Transform d, 
+ref int e) { }
+  dump.cs:407560:
+  dump.cs:407561:	// RVA: 0x626340 Offset: 0x624B40 VA: 0x180626340
+  dump.cs:407562:	private static void hon(List<EquipmentTooltipAttributeUI> a) { }
+  dump.cs:407563:
+  dump.cs:407564:	// RVA: 0x626470 Offset: 0x624C70 VA: 0x180626470
+  dump.cs:407565:	public void .ctor() { }
+  dump.cs:407566:
+  dump.cs:407567:	[CompilerGenerated]
+  dump.cs:407568:	// RVA: 0x626760 Offset: 0x624F60 VA: 0x180626760
+  dump.cs:407569:	internal static float hoo(int a, ref EquipmentTooltipUI.<>c__DisplayClass52_0 b) { }
+  dump.cs:407936:	public TinyTooltipUI TinyTooltipPrefab; // 0x60
+  dump.cs:407937:	public RuneTooltipUI RuneTooltipPrefab; // 0x68
+  dump.cs:407938:	public GemTooltipUI GemTooltipPrefab; // 0x70
+  dump.cs:407939:	public Transform TooltipParent; // 0x78
+  dump.cs:407940:	public Vector2 Offset; // 0x80
+  dump.cs:407941:	public float ScreenPadding; // 0x88
+  dump.cs:407942:	public float ComparisonSpacing; // 0x8C
+  dump.cs:407943:	public float AnchorSpacing; // 0x90
+  dump.cs:407944:	private Canvas pds; // 0x98
+  dump.cs:407945:	private RectTransform pdt; // 0xA0
+  dump.cs:407946:	private readonly List<EquipmentTooltipUI> pdu; // 0xA8
+  dump.cs:407947:	private ItemData pdv; // 0xB0
+  dump.cs:407948:	private string pdw; // 0xB8
+  dump.cs:407949:	private string pdx; // 0xC0
+  dump.cs:407950:	private bool pdy; // 0xC8
+> dump.cs:407951:	private GeneratedItemData pdz; // 0xD0
+  dump.cs:407952:	private readonly List<EquipSlotId> pea; // 0xD8
+  dump.cs:407953:	private int peb; // 0xE0
+  dump.cs:407954:	private ItemTooltipUI pec; // 0xE8
+  dump.cs:407955:	private AbilityTooltipUI ped; // 0xF0
+  dump.cs:407956:	private TalentTooltipUI pee; // 0xF8
+  dump.cs:407957:	private PotionTooltipUI pef; // 0x100
+  dump.cs:407958:	private TooltipUI peg; // 0x108
+  dump.cs:407959:	private MapNodeTooltipUI peh; // 0x110
+  dump.cs:407960:	private TinyTooltipUI pei; // 0x118
+  dump.cs:407961:	private RuneTooltipUI pej; // 0x120
+  dump.cs:407962:	private GemTooltipUI pek; // 0x128
+  dump.cs:407963:	private RectTransform pel; // 0x130
+  dump.cs:407964:	private RectTransform pem; // 0x138
+  dump.cs:407965:	private RectTransform pen; // 0x140
+  dump.cs:407966:	private RectTransform peo; // 0x148
+  dump.cs:407967:	private RectTransform pep; // 0x150
+  dump.cs:407968:	private RectTransform peq; // 0x158
+  dump.cs:407969:	private RectTransform per; // 0x160
+  dump.cs:407970:	private RectTransform pes; // 0x168
+  dump.cs:407971:	private Transform pet; // 0x170
+  dump.cs:407972:	private RectTransform peu; // 0x178
+  dump.cs:407973:	private float pev; // 0x180
+  dump.cs:407974:	private static readonly List<Image> pew; // 0x8
+  dump.cs:407975:	private static readonly Vector3[] pex; // 0x10
+  dump.cs:407976:
+  dump.cs:407977:	// Properties
+  dump.cs:407978:	public static TooltipManager pdr { get; set; }
+  dump.cs:407979:
+  dump.cs:407980:	// Methods
+  dump.cs:407981:
+  dump.cs:407982:	[CompilerGenerated]
+  dump.cs:407983:	// RVA: 0x631A80 Offset: 0x630280 VA: 0x180631A80
+  dump.cs:407984:	public static TooltipManager hpx() { }
+  dump.cs:407985:
+  dump.cs:407986:	[CompilerGenerated]
+  dump.cs:407987:	// RVA: 0x631AE0 Offset: 0x6302E0 VA: 0x180631AE0
+  dump.cs:407988:	private static void hpy(TooltipManager a) { }
+  dump.cs:407989:
+  dump.cs:407990:	// RVA: 0x631B90 Offset: 0x630390 VA: 0x180631B90
+  dump.cs:407991:	private void Awake() { }
+  dump.cs:407994:	private void Start() { }
+  dump.cs:407995:
+  dump.cs:407996:	// RVA: 0x631F40 Offset: 0x630740 VA: 0x180631F40
+  dump.cs:407997:	private void OnDestroy() { }
+  dump.cs:407998:
+  dump.cs:407999:	// RVA: 0x632250 Offset: 0x630A50 VA: 0x180632250
+  dump.cs:408000:	private void Update() { }
+  dump.cs:408001:
+  dump.cs:408002:	// RVA: 0x6323A0 Offset: 0x630BA0 VA: 0x1806323A0
+  dump.cs:408003:	private void hpz(bool a = False) { }
+  dump.cs:408004:
+  dump.cs:408005:	// RVA: 0x632C00 Offset: 0x631400 VA: 0x180632C00
+  dump.cs:408006:	private void hqa(float a) { }
+  dump.cs:408007:
+  dump.cs:408008:	// RVA: 0x633700 Offset: 0x631F00 VA: 0x180633700
+> dump.cs:408009:	public void hqb(ItemData a, string b, RectTransform c, string d, bool e = False, GeneratedItemData 
+f) { }
+  dump.cs:408010:
+  dump.cs:408011:	// RVA: 0x633950 Offset: 0x632150 VA: 0x180633950
+> dump.cs:408012:	public static GeneratedItemData hqc(LedgerEntry a) { }
+  dump.cs:408013:
+  dump.cs:408014:	// RVA: 0x633B00 Offset: 0x632300 VA: 0x180633B00
+  dump.cs:408015:	public void hqd(mm a, RectTransform b) { }
+  dump.cs:408016:
+  dump.cs:408017:	// RVA: 0x633CB0 Offset: 0x6324B0 VA: 0x180633CB0
+  dump.cs:408018:	public void hqe(mm a, RectTransform b) { }
+  dump.cs:408019:
+  dump.cs:408020:	// RVA: 0x633EA0 Offset: 0x6326A0 VA: 0x180633EA0
+  dump.cs:408021:	public void hqf(AbilityData a, RectTransform b, int c = 0) { }
+  dump.cs:408022:
+  dump.cs:408023:	// RVA: 0x634080 Offset: 0x632880 VA: 0x180634080
+  dump.cs:408024:	public void hqg(TalentData a, RectTransform b) { }
+  dump.cs:408025:
+  dump.cs:408026:	// RVA: 0x634260 Offset: 0x632A60 VA: 0x180634260
+  dump.cs:408027:	public void hqh(HealthPotionConfig a, HealthPotionSystem b, RectTransform c) { }
+  dump.cs:408028:
+  dump.cs:408029:	// RVA: 0x634430 Offset: 0x632C30 VA: 0x180634430
+  dump.cs:408030:	public void hqi(MapData a, RectTransform b) { }
+  dump.cs:408031:
+  dump.cs:408032:	// RVA: 0x634760 Offset: 0x632F60 VA: 0x180634760
+  dump.cs:408033:	public void hqj(FishingMapData a, RectTransform b) { }
+  dump.cs:408034:
+  dump.cs:408035:	// RVA: 0x634A90 Offset: 0x633290 VA: 0x180634A90
+  dump.cs:408036:	public void hqk(ItemData a, string b, RectTransform c, string d, bool e = False, bool f = False) { }
+  dump.cs:408037:
+  dump.cs:408038:	// RVA: 0x634CA0 Offset: 0x6334A0 VA: 0x180634CA0
+  dump.cs:408039:	public void hql(RuneData a, string b, RectTransform c, string d, bool e = False, int f = 0) { }
+  dump.cs:408040:
+  dump.cs:408041:	// RVA: 0x634F20 Offset: 0x633720 VA: 0x180634F20
+  dump.cs:408042:	public void hqm(GemData a, string b, RectTransform c, string d, bool e = False, bool f = False) { }
+  dump.cs:408043:
+  dump.cs:408044:	// RVA: 0x6351A0 Offset: 0x6339A0 VA: 0x1806351A0
+  dump.cs:408045:	public void hqn(ItemData a, EquipSlotId b, RectTransform c, string d, bool e = False) { }
+  dump.cs:408046:
+  dump.cs:408047:	// RVA: 0x635360 Offset: 0x633B60 VA: 0x180635360
+  dump.cs:408048:	public void hqo(string a, Transform b) { }
+  dump.cs:408049:
+  dump.cs:408050:	// RVA: 0x6355D0 Offset: 0x633DD0 VA: 0x1806355D0
+  dump.cs:408051:	public void Hide() { }
+  dump.cs:408052:
+  dump.cs:408060:	public Nullable<EquipSlotId> hqr(ItemData a) { }
+  dump.cs:408061:
+  dump.cs:408062:	// RVA: 0x635BB0 Offset: 0x6343B0 VA: 0x180635BB0
+  dump.cs:408063:	private void hqs(ItemData a) { }
+  dump.cs:408064:
+  dump.cs:408065:	// RVA: 0x636180 Offset: 0x634980 VA: 0x180636180
+  dump.cs:408066:	private static bool hqt(EquipSlotId a, EquipSlotType b) { }
+  dump.cs:408067:
+  dump.cs:408068:	// RVA: 0x636220 Offset: 0x634A20 VA: 0x180636220
+  dump.cs:408069:	private void hqu(mm a) { }
+  dump.cs:408070:
+  dump.cs:408071:	// RVA: 0x636330 Offset: 0x634B30 VA: 0x180636330
+  dump.cs:408072:	private void hqv() { }
+  dump.cs:408073:
+  dump.cs:408074:	// RVA: 0x636540 Offset: 0x634D40 VA: 0x180636540
+> dump.cs:408075:	private EquipmentTooltipUI hqw(ItemData a, string b, bool c, string d, bool e = False, 
+StatModifier[] f, GeneratedItemData g) { }
+  dump.cs:408076:
+  dump.cs:408077:	// RVA: 0x6367E0 Offset: 0x634FE0 VA: 0x1806367E0
+  dump.cs:408078:	private void hqx() { }
+  dump.cs:408079:
+  dump.cs:408080:	// RVA: 0x6369B0 Offset: 0x6351B0 VA: 0x1806369B0
+  dump.cs:408081:	private void hqy() { }
+  dump.cs:408082:
+  dump.cs:408083:	// RVA: 0x636C00 Offset: 0x635400 VA: 0x180636C00
+  dump.cs:408084:	private void hqz(ItemData a, string b, string c, bool d = False, bool e = False) { }
+  dump.cs:408085:
+  dump.cs:408086:	// RVA: 0x636EC0 Offset: 0x6356C0 VA: 0x180636EC0
+  dump.cs:408087:	private void hra() { }
+  dump.cs:408088:
+  dump.cs:408089:	// RVA: 0x6370D0 Offset: 0x6358D0 VA: 0x1806370D0
+  dump.cs:408090:	private void hrb(AbilityData a, int b = 0) { }
+  dump.cs:408091:
+  dump.cs:408092:	// RVA: 0x637200 Offset: 0x635A00 VA: 0x180637200
+  dump.cs:408093:	private void hrc() { }
+  dump.cs:408094:
+  dump.cs:408095:	// RVA: 0x637410 Offset: 0x635C10 VA: 0x180637410
+  dump.cs:408096:	private void hrd(TalentData a) { }
+  dump.cs:408097:
+  dump.cs:408098:	// RVA: 0x637520 Offset: 0x635D20 VA: 0x180637520
+  dump.cs:408099:	private void hre() { }
+  dump.cs:408100:
+  dump.cs:408101:	// RVA: 0x637730 Offset: 0x635F30 VA: 0x180637730
+  dump.cs:408102:	private void hrf(HealthPotionConfig a, HealthPotionSystem b) { }
+  dump.cs:408103:
+  dump.cs:408104:	// RVA: 0x637860 Offset: 0x636060 VA: 0x180637860
+  dump.cs:408105:	private void hrg() { }
+  dump.cs:408106:
+  dump.cs:408107:	// RVA: 0x637A70 Offset: 0x636270 VA: 0x180637A70
+  dump.cs:408108:	private void hrh(MapData a) { }
+  dump.cs:408109:
+  dump.cs:408110:	// RVA: 0x637B80 Offset: 0x636380 VA: 0x180637B80
+  dump.cs:408111:	private void hri(FishingMapData a) { }
+  dump.cs:408112:
+  dump.cs:408113:	// RVA: 0x637C90 Offset: 0x636490 VA: 0x180637C90
+  dump.cs:408114:	private void hrj() { }
+  dump.cs:408115:
+  dump.cs:408443:	protected override string fyf() { }
+  dump.cs:408444:
+  dump.cs:408445:	// RVA: 0x640210 Offset: 0x63EA10 VA: 0x180640210 Slot: 13
+  dump.cs:408446:	protected override string fyg() { }
+  dump.cs:408447:
+  dump.cs:408448:	// RVA: 0x640250 Offset: 0x63EA50 VA: 0x180640250 Slot: 10
+  dump.cs:408449:	protected override void Awake() { }
+  dump.cs:408450:
+  dump.cs:408451:	// RVA: 0x6404F0 Offset: 0x63ECF0 VA: 0x1806404F0 Slot: 11
+  dump.cs:408452:	protected override void OnDestroy() { }
+  dump.cs:408453:
+  dump.cs:408454:	// RVA: 0x640640 Offset: 0x63EE40 VA: 0x180640640 Slot: 14
+  dump.cs:408455:	protected override bool fyh(ItemData a, string b) { }
+  dump.cs:408456:
+  dump.cs:408457:	// RVA: 0x640790 Offset: 0x63EF90 VA: 0x180640790 Slot: 15
+> dump.cs:408458:	protected override void fyi(GeneratedItemData a) { }
+  dump.cs:408459:
+  dump.cs:408460:	// RVA: 0x641180 Offset: 0x63F980 VA: 0x180641180 Slot: 16
+  dump.cs:408461:	protected override int fyj(string a) { }
+  dump.cs:408462:
+  dump.cs:408463:	// RVA: 0x6411D0 Offset: 0x63F9D0 VA: 0x1806411D0 Slot: 17
+  dump.cs:408464:	protected override bool fyk(ItemData a, string b) { }
+  dump.cs:408465:
+  dump.cs:408466:	// RVA: 0x641240 Offset: 0x63FA40 VA: 0x180641240 Slot: 18
+  dump.cs:408467:	protected override void fyl(ItemData a, string b) { }
+  dump.cs:408468:
+  dump.cs:408469:	// RVA: 0x641420 Offset: 0x63FC20 VA: 0x180641420
+> dump.cs:408470:	private static string htc(GeneratedItemData a) { }
+  dump.cs:408471:
+  dump.cs:408472:	// RVA: 0x606A30 Offset: 0x605230 VA: 0x180606A30
+  dump.cs:408473:	public void .ctor() { }
+  dump.cs:408474:}
+  dump.cs:408475:
+  dump.cs:408476:// Namespace: 
+  dump.cs:408477:public class UpgradeSlotUI : MonoBehaviour, IDropHandler, IEventSystemHandler, IPointerClickHandler, 
+IPointerEnterHandler, IPointerExitHandler // TypeDefIndex: 6508
+  dump.cs:408478:{
+  dump.cs:408479:	// Fields
+  dump.cs:408480:	public Image IconImage; // 0x20
+  dump.cs:408481:	public Image RarityBgImage; // 0x28
+  dump.cs:408482:	public Image HighlightImage; // 0x30
+  dump.cs:408483:	public UpgradeStarsUI UpgradeStars; // 0x38
+  dump.cs:408484:	public Sprite EmptyIcon; // 0x40
+  dump.cs:408485:	[CompilerGenerated]
+  dump.cs:408486:	private ItemData <pfo>k__BackingField; // 0x48
+  dump.cs:408487:	[CompilerGenerated]
+  dump.cs:408488:	private string <pfp>k__BackingField; // 0x50
+  dump.cs:408489:	private Action pfq; // 0x58
+  dump.cs:408490:	private Func<ItemData, string, bool> pfr; // 0x60
+  dump.cs:408491:
+  dump.cs:408492:	// Properties
+  dump.cs:408493:	public ItemData pfo { get; set; }
+  dump.cs:408494:	public string pfp { get; set; }
+  dump.cs:408495:	public bool rqi { get; }
+  dump.cs:408496:
+  dump.cs:408497:	// Methods
+  dump.cs:408498:
+  dump.cs:408499:	[CompilerGenerated]
+  dump.cs:408500:	// RVA: 0x52C6F0 Offset: 0x52AEF0 VA: 0x18052C6F0
+  dump.cs:408501:	public ItemData htd() { }
+  dump.cs:408502:
+  dump.cs:408503:	[CompilerGenerated]
+  dump.cs:408504:	// RVA: 0x52C700 Offset: 0x52AF00 VA: 0x18052C700
+  dump.cs:408505:	private void hte(ItemData a) { }
+  dump.cs:408506:
+  dump.cs:408507:	[CompilerGenerated]
+  dump.cs:408508:	// RVA: 0x6417E0 Offset: 0x63FFE0 VA: 0x1806417E0
+  dump.cs:408509:	public string htf() { }
+  dump.cs:408510:
+  dump.cs:507713:	public int GetSiblingIndex() { }
+  dump.cs:507714:
+  dump.cs:507715:	[FreeFunction(HasExplicitThis = True)]
+  dump.cs:507716:	// RVA: 0x2956D10 Offset: 0x2955510 VA: 0x182956D10
+  dump.cs:507717:	private Transform FindRelativeTransformWithPath(string path, bool isActiveOnly) { }
+  dump.cs:507718:
+  dump.cs:507719:	// RVA: 0x2956F30 Offset: 0x2955730 VA: 0x182956F30
+  dump.cs:507720:	public Transform Find(string n) { }
+  dump.cs:507721:
+  dump.cs:507722:	[NativeMethod("GetWorldScaleLossy")]
+  dump.cs:507723:	// RVA: 0x2956FA0 Offset: 0x29557A0 VA: 0x182956FA0
+  dump.cs:507724:	public Vector3 get_lossyScale() { }
+  dump.cs:507725:
+  dump.cs:507726:	[FreeFunction("Internal_IsChildOrSameAsOtherTransform", HasExplicitThis = True)]
+  dump.cs:507727:	// RVA: 0x2957060 Offset: 0x2955860 VA: 0x182957060
+> dump.cs:507728:	public bool IsChildOf(Transform parent) { }
+  dump.cs:507729:
+  dump.cs:507730:	// RVA: 0x2957160 Offset: 0x2955960 VA: 0x182957160
+  dump.cs:507731:	public void set_hasChanged(bool value) { }
+  dump.cs:507732:
+  dump.cs:507733:	// RVA: 0x2957210 Offset: 0x2955A10 VA: 0x182957210 Slot: 4
+  dump.cs:507734:	public IEnumerator GetEnumerator() { }
+  dump.cs:507735:
+  dump.cs:507736:	[NativeThrows]
+  dump.cs:507737:	[FreeFunction("GetChild", HasExplicitThis = True)]
+  dump.cs:507738:	// RVA: 0x29572B0 Offset: 0x2955AB0 VA: 0x1829572B0
+  dump.cs:507739:	public Transform GetChild(int index) { }
+  dump.cs:507740:
+  dump.cs:507741:	// RVA: 0x2957380 Offset: 0x2955B80 VA: 0x182957380
+  dump.cs:507742:	private static void get_position_Injected(IntPtr _unity_self, out Vector3 ret) { }
+  dump.cs:507743:
+  dump.cs:507744:	// RVA: 0x29573E0 Offset: 0x2955BE0 VA: 0x1829573E0
+  dump.cs:507745:	private static void set_position_Injected(IntPtr _unity_self, in Vector3 value) { }
+  dump.cs:507746:
+  dump.cs:507747:	// RVA: 0x2957440 Offset: 0x2955C40 VA: 0x182957440
+  dump.cs:507748:	private static void get_localPosition_Injected(IntPtr _unity_self, out Vector3 ret) { }
+  dump.cs:507749:
+  dump.cs:507750:	// RVA: 0x29574A0 Offset: 0x2955CA0 VA: 0x1829574A0
+  dump.cs:507751:	private static void set_localPosition_Injected(IntPtr _unity_self, in Vector3 value) { }
+  dump.cs:507752:
+  dump.cs:507753:	// RVA: 0x2957500 Offset: 0x2955D00 VA: 0x182957500
+  dump.cs:507754:	private static void get_rotation_Injected(IntPtr _unity_self, out Quaternion ret) { }
+  dump.cs:507755:
+  dump.cs:507756:	// RVA: 0x2957560 Offset: 0x2955D60 VA: 0x182957560
+  dump.cs:507757:	private static void set_rotation_Injected(IntPtr _unity_self, in Quaternion value) { }
+  dump.cs:507758:
+  dump.cs:507759:	// RVA: 0x29575C0 Offset: 0x2955DC0 VA: 0x1829575C0
+  dump.cs:507760:	private static void get_localRotation_Injected(IntPtr _unity_self, out Quaternion ret) { }
+  dump.cs:507761:
+  dump.cs:507762:	// RVA: 0x2957620 Offset: 0x2955E20 VA: 0x182957620
+  dump.cs:507763:	private static void set_localRotation_Injected(IntPtr _unity_self, in Quaternion value) { }
+  dump.cs:507764:
+  dump.cs:507765:	// RVA: 0x2957680 Offset: 0x2955E80 VA: 0x182957680
+  dump.cs:507766:	private static void get_localScale_Injected(IntPtr _unity_self, out Vector3 ret) { }
+  dump.cs:507767:
+  dump.cs:507768:	// RVA: 0x29576E0 Offset: 0x2955EE0 VA: 0x1829576E0
+  dump.cs:546416:	public int CalcBloomMipCount(Bloom bloom, Vector2Int bloomResolution) { }
+  dump.cs:546417:
+  dump.cs:546418:	// RVA: 0x2719400 Offset: 0x2717C00 VA: 0x182719400
+  dump.cs:546419:	public void RenderBloomTexture(RenderGraph renderGraph, in TextureHandle source, out TextureHandle 
+destination, bool enableAlphaOutput) { }
+  dump.cs:546420:
+  dump.cs:546421:	// RVA: 0x271A510 Offset: 0x2718D10 VA: 0x18271A510
+  dump.cs:546422:	private TextureHandle BloomGaussian(RenderGraph renderGraph, TextureHandle source, int mipCount) { }
+  dump.cs:546423:
+  dump.cs:546424:	// RVA: 0x271AC60 Offset: 0x2719460 VA: 0x18271AC60
+  dump.cs:546425:	private TextureHandle BloomKawase(RenderGraph renderGraph, TextureHandle source, int mipCount) { }
+  dump.cs:546426:
+  dump.cs:546427:	// RVA: 0x271B290 Offset: 0x2719A90 VA: 0x18271B290
+  dump.cs:546428:	private TextureHandle BloomDual(RenderGraph renderGraph, TextureHandle source, int mipCount) { }
+  dump.cs:546429:
+  dump.cs:546430:	// RVA: 0x271B9E0 Offset: 0x271A1E0 VA: 0x18271B9E0
+> dump.cs:546431:	public void RenderDoF(RenderGraph renderGraph, UniversalResourceData resourceData, 
+UniversalCameraData cameraData, in TextureHandle source, out TextureHandle destination) { }
+  dump.cs:546432:
+  dump.cs:546433:	// RVA: 0x271BC50 Offset: 0x271A450 VA: 0x18271BC50
+  dump.cs:546434:	public void RenderDoFGaussian(RenderGraph renderGraph, UniversalResourceData resourceData, 
+UniversalCameraData cameraData, in TextureHandle source, TextureHandle destination, ref Material dofMaterial) { }
+  dump.cs:546435:
+  dump.cs:546436:	// RVA: 0x271CD50 Offset: 0x271B550 VA: 0x18271CD50
+  dump.cs:546437:	private void PrepareBokehKernel(float maxRadius, float rcpAspect) { }
+  dump.cs:546438:
+  dump.cs:546439:	// RVA: 0x271D180 Offset: 0x271B980 VA: 0x18271D180
+  dump.cs:546440:	private static float GetMaxBokehRadiusInPixels(float viewportHeight) { }
+  dump.cs:546441:
+  dump.cs:546442:	// RVA: 0x271D1A0 Offset: 0x271B9A0 VA: 0x18271D1A0
+  dump.cs:546443:	public void RenderDoFBokeh(RenderGraph renderGraph, UniversalResourceData resourceData, 
+UniversalCameraData cameraData, in TextureHandle source, in TextureHandle destination, ref Material dofMaterial) { }
+  dump.cs:546444:
+  dump.cs:546445:	// RVA: 0x271E250 Offset: 0x271CA50 VA: 0x18271E250
+  dump.cs:546446:	public void RenderPaniniProjection(RenderGraph renderGraph, Camera camera, in TextureHandle source, 
+out TextureHandle destination) { }
+  dump.cs:546447:
+  dump.cs:546448:	// RVA: 0x271EA00 Offset: 0x271D200 VA: 0x18271EA00
+  dump.cs:546449:	private static Vector2 CalcViewExtents(Camera camera, int width, int height) { }
+  dump.cs:546450:
+  dump.cs:546451:	// RVA: 0x271EAF0 Offset: 0x271D2F0 VA: 0x18271EAF0
+  dump.cs:546452:	private static Vector2 CalcCropExtents(Camera camera, float d, int width, int height) { }
+  dump.cs:546453:
+  dump.cs:546454:	// RVA: 0x271EB90 Offset: 0x271D390 VA: 0x18271EB90
+  dump.cs:546455:	private void RenderTemporalAA(RenderGraph renderGraph, UniversalResourceData resourceData, 
+UniversalCameraData cameraData, ref TextureHandle source, out TextureHandle destination) { }
+  dump.cs:546456:
+  dump.cs:546457:	// RVA: 0x271ED50 Offset: 0x271D550 VA: 0x18271ED50
+  dump.cs:546458:	private void RenderSTP(RenderGraph renderGraph, UniversalResourceData resourceData, 
+UniversalCameraData cameraData, ref TextureHandle source, out TextureHandle destination) { }
+  dump.cs:546459:
+  dump.cs:546460:	// RVA: 0x271F240 Offset: 0x271DA40 VA: 0x18271F240
+  dump.cs:546461:	public void RenderMotionBlur(RenderGraph renderGraph, UniversalResourceData resourceData, 
+UniversalCameraData cameraData, in TextureHandle source, out TextureHandle destination) { }
+  dump.cs:546462:
+  dump.cs:546463:	// RVA: 0x271FC40 Offset: 0x271E440 VA: 0x18271FC40
+  dump.cs:546464:	internal static void UpdateMotionBlurMatrices(ref Material material, Camera camera, XRPass xr) { }
+  dump.cs:546465:
+  dump.cs:546466:	// RVA: 0x2720070 Offset: 0x271E870 VA: 0x182720070
+  dump.cs:546467:	private void LensFlareDataDrivenComputeOcclusion(RenderGraph renderGraph, UniversalResourceData 
+resourceData, UniversalCameraData cameraData, in TextureDesc srcDesc) { }
+  dump.cs:546468:
+  dump.cs:546469:	// RVA: 0x2720840 Offset: 0x271F040 VA: 0x182720840
+  dump.cs:546470:	public void RenderLensFlareDataDriven(RenderGraph renderGraph, UniversalResourceData resourceData, 
+UniversalCameraData cameraData, in TextureHandle destination, in TextureDesc srcDesc) { }
+  dump.cs:546471:
+
+
